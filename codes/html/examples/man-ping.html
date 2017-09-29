@@ -10,11 +10,30 @@
 <body id="topo">
   <h1>ping(8) - Linux man page</h1>
   <hr>
-  <!-- Sumário -->
-  <h2>Name</h2>
+  <h2>Sumário</h2>
+  <ol>
+    <li><a href="name">Name</a></li>
+    <li><a href="synopsis">Synopsis</a></li>
+    <li><a href="description">Description</a></li>
+    <li><a href="options">Options</a></li>
+    <li><a href="icmp">Icmp Packet Details</a></li>
+    <li><a href="packets">Duplicate and Damaged Packets</a></li>
+    <li><a href="dataPatterns">Trying Different Data Patterns</a></li>
+    <li><a href="ttl">Ttl Details</a></li>
+    <li><a href="bugs">Bugs</a></li>
+    <li><a href="seeAlso">See Also</a></li>
+    <li><a href="history">History</a></li>
+    <li><a href="security">Security</a></li>
+    <li><a href="availability">Availability</a></li>
+    <li><a href="referencedBy">Referenced By</a></li>
+  </ol>
+
+  <h2 id="name">Name</h2>
+  <a href="#topo">topo</a>
   <p>ping, ping6 - send ICMP ECHO_REQUEST to network hosts</p>
 
-  <h2>Synopsis</h2>
+  <h2 id="synopsis">Synopsis</h2>
+  <a href="#topo">topo</a>
 
   <p>
     <b>ping [ -LRUbdfnqrvVaAB] [ -c count] [ -i interval] [ -l preload] [ -p pattern] [ -s packetsize] [ -t ttl]<br>
@@ -23,10 +42,12 @@
   </p>
 
   <h2 id="description">Description</h2>
+  <a href="#topo">topo</a>
 
   ping uses the ICMP protocol's mandatory ECHO_REQUEST datagram to elicit an ICMP ECHO_RESPONSE from a host or gateway. ECHO_REQUEST datagrams (''pings'') have an IP and ICMP header, followed by a struct timeval and then an arbitrary number of ''pad'' bytes used to fill out the packet.
 
-  <h2>Options</h2>
+  <h2 id="options">Options</h2>
+  <a href="#topo">topo</a>
 
   -a
   Audible ping.
@@ -90,61 +111,68 @@
 
   This program is intended for use in network testing, measurement and management. Because of the load it can impose on the network, it is unwise to use ping during normal operations or from automated scripts.
 
-  <h2>Icmp Packet Details</h2>
+  <h2 id="icmp">Icmp Packet Details</h2>
+  <a href="#topo">topo</a>
 
   An IP header without options is 20 bytes. An ICMP ECHO_REQUEST packet contains an additional 8 bytes worth of ICMP header followed by an arbitrary amount of data. When a packetsize is given, this indicated the size of this extra piece of data (the default is 56). Thus the amount of data received inside of an IP packet of type ICMP ECHO_REPLY will always be 8 bytes more than the requested data space (the ICMP header).
 
   If the data space is at least of size of struct timeval ping uses the beginning bytes of this space to include a timestamp which it uses in the computation of round trip times. If the data space is shorter, no round trip times are given.
 
-  <h2>Duplicate and Damaged Packets</h2>
+  <h2 id="packets">Duplicate and Damaged Packets</h2>
+  <a href="#topo">topo</a>
 
   ping will report duplicate and damaged packets. Duplicate packets should never occur, and seem to be caused by inappropriate link-level retransmissions. Duplicates may occur in many situations and are rarely (if ever) a good sign, although the presence of low levels of duplicates may not always be cause for alarm.
 
   Damaged packets are obviously serious cause for alarm and often indicate broken hardware somewhere in the ping packet's path (in the network or in the hosts).
 
-  <h2>Trying Different Data Patterns</h2>
+  <h2 id="dataPatterns">Trying Different Data Patterns</h2>
+  <a href="#topo">topo</a>
 
   The (inter)network layer should never treat packets differently depending on the data contained in the data portion. Unfortunately, data-dependent problems have been known to sneak into networks and remain undetected for long periods of time. In many cases the particular pattern that will have problems is something that doesn't have sufficient ''transitions'', such as all ones or all zeros, or a pattern right at the edge, such as almost all zeros. It isn't necessarily enough to specify a data pattern of all zeros (for example) on the command line because the pattern that is of interest is at the data link level, and the relationship between what you type and what the controllers transmit can be complicated.
 
   This means that if you have a data-dependent problem you will probably have to do a lot of testing to find it. If you are lucky, you may manage to find a file that either can't be sent across your network or that takes much longer to transfer than other similar length files. You can then examine this file for repeated patterns that you can test using the -p option of ping.
 
-  <h2>Ttl Details</h2>
+  <h2 id="ttl">Ttl Details</h2>
   <a href="#topo">topo</a>
 
-  The TTL value of an IP packet represents the maximum number of IP routers that the packet can go through before being thrown away. In current practice you can expect each router in the Internet to decrement the TTL field by exactly one.
-
-  The TCP/IP specification states that the TTL field for TCP packets should be set to 60, but many systems use smaller values (4.3 BSD uses 30, 4.2 used 15).
-
-  The maximum possible value of this field is 255, and most Unix systems set the TTL field of ICMP ECHO_REQUEST packets to 255. This is why you will find you can ''ping'' some hosts, but not reach them with telnet(1) or ftp(1).
-
-  In normal operation ping prints the ttl value from the packet it receives. When a remote system receives a ping packet, it can do one of three things with the TTL field in its response:
-
-  Not change it; this is what Berkeley Unix systems did before the 4.3BSD Tahoe release. In this case the TTL value in the received packet will be 255 minus the number of routers in the round-trip path.
-  Set it to 255; this is what current Berkeley Unix systems do. In this case the TTL value in the received packet will be 255 minus the number of routers in the path from the remote system to the pinging host.
-  Set it to some other value. Some machines use the same value for ICMP packets that they use for TCP packets, for example either 30 or 60. Others may use completely wild values.
-  <h2>Bugs</h2>
+  <p>The TTL value of an IP packet represents the maximum number of IP routers that the packet can go through before being thrown away. In current practice you can expect each router in the Internet to decrement the TTL field by exactly one.</p>
+  <p>The TCP/IP specification states that the TTL field for TCP packets should be set to 60, but many systems use smaller values (4.3 BSD uses 30, 4.2 used 15).</p>
+  <p>The maximum possible value of this field is 255, and most Unix systems set the TTL field of ICMP ECHO_REQUEST packets to 255. This is why you will find you can ''ping'' some hosts, but not reach them with telnet(1) or ftp(1).</p>
+  <p>In normal operation ping prints the ttl value from the packet it receives. When a remote system receives a ping packet, it can do one of three things with the TTL field in its response:</p>
+  <ul>
+    <li>Not change it; this is what Berkeley Unix systems did before the 4.3BSD Tahoe release. In this case the TTL value in the received packet will be 255 minus the number of routers in the round-trip path.</li>
+    <li>Set it to 255; this is what current Berkeley Unix systems do. In this case the TTL value in the received packet will be 255 minus the number of routers in the path from the remote system to the pinging host.</li>
+    <li>Set it to some other value. Some machines use the same value for ICMP packets that they use for TCP packets, for example either 30 or 60. Others may use completely wild values.</li>
+  </ul>
+  <h2 id="bugs">Bugs</h2>
+  <a href="#topo">topo</a>
 
   Many Hosts and Gateways ignore the RECORD_ROUTE option.
   The maximum IP header length is too small for options like RECORD_ROUTE to be completely useful. There's not much that that can be done about this, however.
   Flood pinging is not recommended in general, and flood pinging the broadcast address should only be done under very controlled conditions.
-  <h2>See Also</h2>
+  <h2 id="seeAlso">See Also</h2>
+  <a href="#topo">topo</a>
 
   netstat(1), ifconfig(8).
 
-  <h2>History</h2>
+  <h2 id="history">History</h2>
+  <a href="#topo">topo</a>
 
-  The ping command appeared in 4.3BSD.
+  <p>The ping command appeared in 4.3BSD.</p>
 
   The version described here is its descendant specific to Linux.
 
-  <h2>Security</h2>
+  <h2 id="security">Security</h2>
+  <a href="#topo">topo</a>
 
   ping requires CAP_NET_RAWIO capability to be executed. It may be used as set-uid root.
 
-  <h2>Availability</h2>
+  <h2 id="availability">Availability</h2>
+  <a href="#topo">topo</a>
 
   ping is part of iputils package and the latest versions are available in source form at http://www.skbuff.net/iputils/iputils-current.tar.bz2.
-  <h2>Referenced By</h2>
+  <h2 id="referencedBy">Referenced By</h2>
+  <a href="#topo">topo</a>
 
   arping(8), bing(8), clockdiff(8), cytune(8), fping(8), hping2(8), hping3(8), ipmiping(8), ipsec_ikeping(8), irdaping(8), iwspy(8), libval_shim(3), mtr(8), omping(8), oping(8), ping_selinux(8), rdisc(8), rds-ping(1), rmcpping(8), sonar(1), sonar(6), tcptraceroute(1), tping(1), tracepath(8), traceroute(8), virt-rescue(1)
 </body>
