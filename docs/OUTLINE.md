@@ -6,6 +6,7 @@
 [\# 04 - Dashboard Admin (13/10/2017)](#-04---dashboard-admin-13102017)<br>
 [\# 05 - Dashboard Admin com Bootstrap (14/10/2017 Sábado)](#-05---dashboard-admin-com-bootstrap-14102017-sábado)<br>
 [\# 06 - Recursos do Bootstrap (20/10/2017)](#-06---recursos-do-bootstrap-20102017)<br>
+[\# 07 - Introdução ao Javascript (21/10/2017 Sábado)](-07---introdução-ao-javascript-21102017-sábado)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -48,7 +49,7 @@
 
 **Exercício:**
 * Estilizando o mamual do comando PING em CSS
-  * Proposta de [Miguel Cabral](https://github.com/BelarminoM): [codes/cass/examples/main-ping/](../codes/cass/examples/main-ping/)
+  * Proposta de [Miguel Cabral](https://github.com/BelarminoM): [codes/css/examples/main-ping/](../codes/cass/examples/main-ping/)
 
 ## \# 04 - Dashboard Admin (13/10/2017)
 
@@ -81,6 +82,7 @@
   - Layout: [Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
     - [Grid Options](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
     - [Exemplo](../codes/css/examples/gentellela-dashboard/) de grid em recortes do Gentelella
+
 **Exercício:**
 * Revisar o Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
 
@@ -93,12 +95,18 @@
   - [Content](https://getbootstrap.com/docs/4.0/content/): Typography, Code, [Table](../codes/css/bootstrap/table/), Figure
   - [Component](https://getbootstrap.com/docs/4.0/components/): [Buttons](../codes/css/bootstrap/table/), [Card](../codes/css/bootstrap/card/)
 - Framework CSS:
+  - [Top CSS frameworks to follow in 2017](https://medium.com/@thomasmarciniak/top-css-frameworks-to-follow-in-2017-51d283dd00fb)
+  [Popular CSS Libraries](http://cssdb.co/)
   - [Bootstrap](http://getbootstrap.com/)
   - [Materialize CSS](http://materializecss.com/)
+  - [Bulma](https://bulma.io/)
+  - [PureCSS](https://purecss.io/)
+  - [Semantic UI](https://semantic-ui.com/)
+  - [Foundation](https://foundation.zurb.com/)
 
 **Exercício:**
 * Revisar o bootstrap do Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
-  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/cass/examples/ample-admin/](../codes/cass/examples/ample-admin/)
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/css/examples/ample-admin/](../codes/cass/examples/ample-admin/)
 * [Simulado de HTML e CSS](../exams/simulado-html-css)
 
 ## \# 07 - Introdução ao Javascript (21/10/2017 Sábado)
@@ -117,20 +125,18 @@
 
 **Conteúdo:**
 - Javascript
-  -
 
 
-## \# 09 - (27/10/2017)
+## \# 09 - (27/10/2017 Sexta)
 
 * * *
 
 **Conteúdo:**
 - Javascript
-  -
 
 **Exercício:**
 
-## \# 10 - (03/11/2017)
+## \# 10 - Avalição de HTML e CSS (03/11/2017)
 
 * * *
 
@@ -142,13 +148,15 @@
 
 * * *
 
-**Avaliação II: Javascript**
+**Simulado II: Javascript**
 
 **Apresentação das Propostas de Projeto**
 
 ## \# 12 - (15/12/2017)
 
 * * *
+
+**Avaliação II: Javascript**
 
 **Conteúdo:**
 - PHP
@@ -216,7 +224,6 @@
 * * *
 
 **Conteúdo:**
--
 
 **Exercício:**
 
