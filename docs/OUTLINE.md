@@ -47,7 +47,8 @@
   - Media query
 
 **Exercício:**
-* Estilizando o mamual do comando PING em CSS (Proposta de [Miguel Cabral](https://github.com/BelarminoM): [codes/cass/examples/main-ping/](../codes/cass/examples/main-ping/))
+* Estilizando o mamual do comando PING em CSS
+  * Proposta de [Miguel Cabral](https://github.com/BelarminoM): [codes/cass/examples/main-ping/](../codes/cass/examples/main-ping/)
 
 ## \# 04 - Dashboard Admin (13/10/2017)
 
@@ -96,7 +97,8 @@
   - [Materialize CSS](http://materializecss.com/)
 
 **Exercício:**
-* Revisar o bootstrap do Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/) (Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/cass/examples/ample-admin/](../codes/cass/examples/ample-admin/))
+* Revisar o bootstrap do Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/cass/examples/ample-admin/](../codes/cass/examples/ample-admin/)
 * [Simulado de HTML e CSS](../exams/simulado-html-css)
 
 ## \# 07 - Introdução ao Javascript (21/10/2017 Sábado)
