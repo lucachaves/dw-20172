@@ -28,6 +28,8 @@ A disciplina de Desenvolvimento para Web (DW) do Curso Superior de Tecnologia em
   * Fundamentos de BDR
   * SQL (criação e manipulação)
 
+Além disso, é possível visualizar em detalhe o [roteiro das aulas](docs/OUTLINE.md) e o [código fonte](codes/).
+
 ## Avaliações
 
 A nota final será computada através da média aritmética das avaliações e poderá ser adicionada atividades extras.
