@@ -78,7 +78,7 @@
 - [Bootstrap](https://getbootstrap.com/)
   - Configuração: [Starter template](https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template)
   - Layout: [Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
-    - [Exemplo](../codes/css/examples/gentelella-dashborad/) de grid em recortes do Gentelella
+    - [Exemplo](../codes/css/examples/gentelella-dashboard/) de grid em recortes do Gentelella
 
 **Exercício:**
 * Revisar o Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
