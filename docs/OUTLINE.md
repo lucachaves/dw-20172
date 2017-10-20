@@ -97,13 +97,14 @@
 
 **Exercício:**
 * Revisar o Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
-* Simulado de HTML e CSS
+* [Simulado de HTML e CSS](../exams/simulado-html-css)
 
 ## \# 07 - Introdução ao Javascript (21/10/2017 Sábado)
 
 * * *
 
 **Conteúdo:**
+- Form
 - Javascript
 
 **Exercício:**
