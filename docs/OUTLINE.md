@@ -78,8 +78,8 @@
 - [Bootstrap](https://getbootstrap.com/)
   - Configuração: [Starter template](https://getbootstrap.com/docs/4.0/getting-started/introduction/#starter-template)
   - Layout: [Grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
-    - [Exemplo](../codes/css/examples/gentelella-dashboard/) de grid em recortes do Gentelella
-
+    - [Grid Options](https://getbootstrap.com/docs/4.0/layout/grid/#grid-options)
+    - [Exemplo](../codes/css/examples/gentellela-dashboard/) de grid em recortes do Gentelella
 **Exercício:**
 * Revisar o Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
 
@@ -88,9 +88,9 @@
 * * *
 
 **Conteúdo:**
-- Bootstrap
-  - Content: Typography, Code, Table, Figure
-  - Component: Form
+- [Bootstrap](http://getbootstrap.com/)
+  - [Content](https://getbootstrap.com/docs/4.0/content/): Typography, Code, [Table](../codes/css/bootstrap/table/), Figure
+  - [Component](https://getbootstrap.com/docs/4.0/components/): [Buttons](../codes/css/bootstrap/table/), [Card](../codes/css/bootstrap/card/)
 - Framework CSS:
   - [Bootstrap](http://getbootstrap.com/)
   - [Materialize CSS](http://materializecss.com/)
