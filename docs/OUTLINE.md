@@ -1,11 +1,11 @@
 # Roteiro das Aulas
 
-[\# 01 - Apresentação da Disciplina (22/09/2017)](#-01---apresentação-da-disciplina-22092017)
-[\# 02 - Estrutura com HTML (29/09/2017)](#-02---estrutura-com-html-29092017)
-[\# 03 - Estilo com CSS (06/10/2017)](#-03---estilo-com-css-06102017)
-[\# 04 - Dashboard Admin (13/10/2017)](#-04---dashboard-admin-13102017)
-[\# 05 - Dashboard Admin com Bootstrap (14/10/2017 Sábado)](#-05---dashboard-admin-com-bootstrap-14102017-sábado)
-[\# 06 - Recursos do Bootstrap (20/10/2017)](#-06---recursos-do-bootstrap-20102017)
+[\# 01 - Apresentação da Disciplina (22/09/2017)](#-01---apresentação-da-disciplina-22092017)<br>
+[\# 02 - Estrutura com HTML (29/09/2017)](#-02---estrutura-com-html-29092017)<br>
+[\# 03 - Estilo com CSS (06/10/2017)](#-03---estilo-com-css-06102017)<br>
+[\# 04 - Dashboard Admin (13/10/2017)](#-04---dashboard-admin-13102017)<br>
+[\# 05 - Dashboard Admin com Bootstrap (14/10/2017 Sábado)](#-05---dashboard-admin-com-bootstrap-14102017-sábado)<br>
+[\# 06 - Recursos do Bootstrap (20/10/2017)](#-06---recursos-do-bootstrap-20102017)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
