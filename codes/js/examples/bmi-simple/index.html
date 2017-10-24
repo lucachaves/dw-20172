@@ -92,13 +92,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
     <script>
-      let alturaField = document.querySelector('input[name=altura]')
-      let pesoField = document.querySelector('input[name=peso]')
 
       // http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php
       function calculadoraDeIMC(){
-        let altura = alturaField.value
-        let peso = pesoField.value
+        let altura = document.querySelector('input[name=altura]').value
+        let peso = document.querySelector('input[name=peso]').value
         let sexo = document.querySelector('input[name=sexo]:checked').value
         let imc = peso/altura**2
         let resultado

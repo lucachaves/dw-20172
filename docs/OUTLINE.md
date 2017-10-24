@@ -150,15 +150,34 @@
   * [Proposta](../codes/js/examples/bmi-simple/)
 * Gerar uma calculadora de botões
 
-## \# 08 - (24/10/2017 Terça)
+## \# 08 - Geração Dinâmica com JS (24/10/2017 Terça)
 
 * * *
 
 **Conteúdo:**
+- CSS
+  - Propriedade
+    - [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+  - Bootstrap
+    - Component: [`Alert`](http://getbootstrap.com/docs/4.0/components/alerts/)
 - Javascript
   - Sintaxe
     - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+    - [Template String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)
+    - [JSON](http://json.org)
+    - [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+    - DOM
+      - [Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+      - [Element.className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className)
+    - [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
+**Exercício:**
+* Gerar o `Top Tiles` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
+  * [Proposta](../codes/js/examples/gentelella-top-tiles)
+* Gerar o `App Version Panel` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
+![app version panel](../codes/js/examples/gentelella-app-versions/app-version-panel.png)
+* IMC com Validador
+  * [Proposta](../codes/js/examples/bmi-validator/)
 
 ## \# 09 - (27/10/2017 Sexta)
 
@@ -168,8 +187,7 @@
 - Javascript
 
 **Exercício:**
-* IMC com Validador
-  * [Proposta](../codes/js/examples/bmi-validador/)
+
 ## \# 10 - Avalição de HTML e CSS (03/11/2017)
 
 * * *
