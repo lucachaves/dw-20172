@@ -147,6 +147,44 @@
     - `document.querySelector()`
   - window Object
     - `window.print()`
+- Web API
+  - APIs: [Any  API](https://any-api.com/), [abhishekbanthia/Public-APIs](https://github.com/abhishekbanthia/Public-APIs), [toddmotto/public-apis](https://github.com/toddmotto/public-apis)
+  - IP API
+    - Reference: [doc](http://ip-api.com/docs/), [json](http://ip-api.com/docs/api:json)
+    ```js
+    // http://ip-api.com/json/8.8.8.8
+    {
+      "as":"AS15169 Google Inc.",
+      "city":"Mountain View",
+      "country":"United States",
+      "countryCode":"US",
+      "isp":"Google",
+      "lat":37.4229,"lon":-122.085,"org":"Google",
+      "query":"8.8.8.8",
+      "region":"CA",
+      "regionName":"California",
+      "status":"success",
+      "timezone":"America/Los_Angeles",
+      "zip":""
+    }
+    ```
+  - Via CEP
+    - Reference: [doc](https://viacep.com.br/)
+    ```js
+    // https://viacep.com.br/ws/01001000/json/
+
+    {
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "bairro": "Sé",
+      "localidade": "São Paulo",
+      "uf": "SP",
+      "unidade": "",
+      "ibge": "3550308",
+      "gia": "1004"
+    }
+    ```
   
 **Exercício:**
 * Criar um formulário usando o Bootstrap
@@ -196,17 +234,17 @@
 
 * * *
 
-**Divulgação dos critérios do Projeto**
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css-1/README.md)
 
-**Avaliação I: HTML & CSS**
+> Além da avaliação será divulgado os critérios do [projeto final](../exams/projeto.md)
 
 ## \# 11 - Simulado de Javascript (10/11/2017)
 
 * * *
 
-**Simulado II: Javascript**
+> Todos os detalhes do simulado estão disponíveis nesta [página](../exams/simulado-html-css-1/README.md)
 
-**Apresentação das Propostas de Projeto**
+> A ordem de apresentação estará disponível nessa [página](../exams/projeto.md).
 
 ## \# 12 - (15/12/2017)
 
