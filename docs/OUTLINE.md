@@ -6,7 +6,7 @@
 [\# 04 - Dashboard Admin (13/10/2017)](#-04---dashboard-admin-13102017)<br>
 [\# 05 - Dashboard Admin com Bootstrap (14/10/2017 Sábado)](#-05---dashboard-admin-com-bootstrap-14102017-sábado)<br>
 [\# 06 - Recursos do Bootstrap (20/10/2017)](#-06---recursos-do-bootstrap-20102017)<br>
-[\# 07 - Introdução ao Javascript (21/10/2017 Sábado)](-07---introdução-ao-javascript-21102017-sábado)<br>
+[\# 07 - Introdução ao Javascript (21/10/2017 Sábado)](#-07---introdução-ao-javascript-21102017-sábado)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -49,7 +49,7 @@
 
 **Exercício:**
 * Estilizando o mamual do comando PING em CSS
-  * Proposta de [Miguel Cabral](https://github.com/BelarminoM): [codes/css/examples/main-ping/](../codes/cass/examples/main-ping/)
+  * Proposta de [Miguel Cabral](https://github.com/BelarminoM): [codes/css/examples/main-ping/](../codes/css/examples/main-ping/)
 
 ## \# 04 - Dashboard Admin (13/10/2017)
 
@@ -105,19 +105,50 @@
   - [Foundation](https://foundation.zurb.com/)
 
 **Exercício:**
+* Criar esse painel do  Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/)
+![Painel Ample Admin](assets/painel-ample-admin.png)
+
 * Revisar o bootstrap do Dashboard Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) e [Advanced](https://wrappixel.com/ampleadmin/)
-  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/css/examples/ample-admin/](../codes/cass/examples/ample-admin/)
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/css/examples/ample-admin/](../codes/css/examples/ample-admin/)
 * [Simulado de HTML e CSS](../exams/simulado-html-css)
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [exams/simulado-html-css/](../exams/simulado-html-css/site-response/walisson/)
 
 ## \# 07 - Introdução ao Javascript (21/10/2017 Sábado)
 
 * * *
 
 **Conteúdo:**
-- Form
+- Formulário em HTML
+  - [MDN Doc](https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms)
+  - [Elementos do Formulário](../codes/html/form-elements/form-elements.png)
+  - Tags: `<form>`, `<input>`, `<textarea>`, `<select>`, `<option>`, `<button>`, `<label>`
+  - [Creating Amazing Forms](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/)
+    - [HTML5 input types](https://developers.google.com/web/fundamentals/design-and-ux/input/forms/#html5_input_types)
+  - [Bootstrap Form Component](http://getbootstrap.com/docs/4.0/components/forms/)
+    - Agrupando e estilizando
+    - [Exemplo de Login](../codes/html/form-login/)
+    - [Formulário para Calcular o IMC](../codes/html/form-imc/)
 - Javascript
-
+  - [MDN Doc](https://developer.mozilla.org/en-US/docs/Web/JavaScript), [MDN Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/)
+  - Sintaxe
+    - Output
+      - `console.log()`
+    - [Declarando variáveis](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations)
+    - [Operadores](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/)
+      - [Arithmetic](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators)
+      - [Operator Precedence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence)
+    - [Control_flow](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling): `if...else`
+    - [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+  - [Document Object Model (DOM)](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model#document_object_model_dom)
+    - `document.querySelector()`
+  - window Object
+    - `window.print()`
+  
 **Exercício:**
+* Criar um formulário usando o Bootstrap
+* Gerar um página HTML para calcular o Índice de Massa Corporea (IMC) para ambos os sexos, para mais detalhes veja a [tabela](http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php).
+  * [Proposta](../codes/js/exampls/bmi/)
+* Gerar uma calculadora de botões
 
 ## \# 08 - (24/10/2017 Terça)
 
@@ -125,6 +156,8 @@
 
 **Conteúdo:**
 - Javascript
+  - Sintaxe
+    - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
 
 
 ## \# 09 - (27/10/2017 Sexta)
@@ -135,7 +168,8 @@
 - Javascript
 
 **Exercício:**
-
+* IMC com Validador
+  * [Proposta](../codes/js/exampls/bmi-validador/)
 ## \# 10 - Avalição de HTML e CSS (03/11/2017)
 
 * * *
