@@ -174,12 +174,12 @@
 **Exercício:**
 * Gerar o `Top Tiles` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
   * [Proposta](../codes/js/examples/gentelella-top-tiles)
-* Gerar o `App Version Panel` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
+* Gerar o `App Version Panel` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)<br>
 ![app version panel](../codes/js/examples/gentelella-app-versions/app-version-panel.png)
 * IMC com Validador
   * [Proposta](../codes/js/examples/bmi-validator/)
 
-## \# 09 - (27/10/2017 Sexta)
+## \# 09 Consumindo JSON e Pacotes JS (27/10/2017 Sexta)
 
 * * *
 
