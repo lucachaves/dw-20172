@@ -147,6 +147,33 @@
     - `document.querySelector()`
   - window Object
     - `window.print()`
+  
+**Exercício:**
+* Criar um formulário usando o Bootstrap
+* Gerar um página HTML para calcular o Índice de Massa Corporea (IMC) para ambos os sexos, para mais detalhes veja a [tabela](http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php).
+  * [Proposta](../codes/js/examples/bmi-simple/)
+* Gerar uma calculadora de botões
+
+## \# 08 - Geração Dinâmica com JS (24/10/2017 Terça)
+
+* * *
+
+**Conteúdo:**
+- CSS
+  - Propriedade
+    - [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
+  - Bootstrap
+    - Component: [`Alert`](http://getbootstrap.com/docs/4.0/components/alerts/)
+- Javascript
+  - Sintaxe
+    - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration): `for`, `for...of`, `for...in`
+    - [Template String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)
+    - [JSON](http://json.org)
+    - [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
+    - DOM
+      - [Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
+      - [Element.className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className)
+    - [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 - Web API
   - APIs: [Any  API](https://any-api.com/), [abhishekbanthia/Public-APIs](https://github.com/abhishekbanthia/Public-APIs), [toddmotto/public-apis](https://github.com/toddmotto/public-apis)
   - IP API
@@ -185,33 +212,6 @@
       "gia": "1004"
     }
     ```
-  
-**Exercício:**
-* Criar um formulário usando o Bootstrap
-* Gerar um página HTML para calcular o Índice de Massa Corporea (IMC) para ambos os sexos, para mais detalhes veja a [tabela](http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php).
-  * [Proposta](../codes/js/examples/bmi-simple/)
-* Gerar uma calculadora de botões
-
-## \# 08 - Geração Dinâmica com JS (24/10/2017 Terça)
-
-* * *
-
-**Conteúdo:**
-- CSS
-  - Propriedade
-    - [`transition`](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
-  - Bootstrap
-    - Component: [`Alert`](http://getbootstrap.com/docs/4.0/components/alerts/)
-- Javascript
-  - Sintaxe
-    - [Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
-    - [Template String](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/template_strings)
-    - [JSON](http://json.org)
-    - [NaN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN)
-    - DOM
-      - [Element.innerHTML](https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML)
-      - [Element.className](https://developer.mozilla.org/en-US/docs/Web/API/Element/className)
-    - [`setTimeout()`](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 
 **Exercício:**
 * Gerar o `Top Tiles` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
