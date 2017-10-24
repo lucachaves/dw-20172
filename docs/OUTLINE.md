@@ -8,9 +8,9 @@
 [\# 06 - Recursos do Bootstrap (20/10/2017)](#-06---recursos-do-bootstrap-20102017)<br>
 [\# 07 - Introdução ao Javascript (21/10/2017 Sábado)](#-07---introdução-ao-javascript-21102017-sábado)<br>
 [\# 08 - Geração Dinâmica com JS (24/10/2017 Terça)](#-08---geração-dinâmica-com-js-24102017-terça)<br>
-[\# 09 Pacotes JS e Consumindo JSON (27/10/2017 Sexta)](#-09---pacotes-js-e-consumindo-json-27102017-sexta)<br>
-[\# 10 - Avalição de HTML e CSS (03/11/2017)](#-10---avalição-de-html-e-css-03112017)
-[\# 11 - Simulado de Javascript (10/11/2017)](#-11---simulado-de-javascript-10112017)
+[\# 09 - Pacotes JS e Consumindo JSON (27/10/2017 Sexta)](#-09---pacotes-js-e-consumindo-json-27102017-sexta)<br>
+[\# 10 - Avalição de HTML e CSS (03/11/2017)](#-10---avalição-de-html-e-css-03112017)<br>
+[\# 11 - Simulado de Javascript (10/11/2017)](#-11---simulado-de-javascript-10112017)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -183,7 +183,7 @@
 * IMC com Validador
   * [Proposta](../codes/js/examples/bmi-validator/)
 
-## \# 09 Pacotes JS e Consumindo JSON (27/10/2017 Sexta)
+## \# 09 - Pacotes JS e Consumindo JSON (27/10/2017 Sexta)
 
 * * *
 
