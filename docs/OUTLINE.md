@@ -147,7 +147,7 @@
 **Exercício:**
 * Criar um formulário usando o Bootstrap
 * Gerar um página HTML para calcular o Índice de Massa Corporea (IMC) para ambos os sexos, para mais detalhes veja a [tabela](http://www.calcule.net/imc.calculo.indice.de.massa.corporal.a.php).
-  * [Proposta](../codes/js/exampls/bmi/)
+  * [Proposta](../codes/js/examples/bmi-simple/)
 * Gerar uma calculadora de botões
 
 ## \# 08 - (24/10/2017 Terça)
@@ -169,7 +169,7 @@
 
 **Exercício:**
 * IMC com Validador
-  * [Proposta](../codes/js/exampls/bmi-validador/)
+  * [Proposta](../codes/js/examples/bmi-validador/)
 ## \# 10 - Avalição de HTML e CSS (03/11/2017)
 
 * * *
