@@ -196,7 +196,7 @@
     }
     ```
   - Via CEP
-    - Reference: [doc](https://viacep.com.br/)
+    - Reference: [doc](https://viacep.com.br/)<br>
     ```js
     // https://viacep.com.br/ws/01001000/json/
 
