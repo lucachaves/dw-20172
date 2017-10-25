@@ -196,10 +196,9 @@
     }
     ```
   - Via CEP
-    - Reference: [doc](https://viacep.com.br/)<br>
+    - Reference: [doc](https://viacep.com.br/)
     ```js
     // https://viacep.com.br/ws/01001000/json/
-
     {
       "cep": "01001-000",
       "logradouro": "Praça da Sé",
@@ -219,7 +218,7 @@
 * Gerar o `App Version Panel` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
   * [Proposta](../codes/js/examples/gentelella-app-versions/)<br>
   ![app version panel](../codes/js/examples/gentelella-app-versions/app-version-panel.png)
-* IMC com Validador
+* Analisar o `IMC com Validador`
   * [Proposta](../codes/js/examples/bmi-validator/)
 
 ## \# 09 - Pacotes JS e Consumindo JSON (27/10/2017 Sexta)
