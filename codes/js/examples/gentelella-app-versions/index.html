@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Gentelella</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" 
+    integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link 
+    rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+    crossorigin="anonymous">
+  <style>
+    body {
+      background: #F7F7F7;
+      padding: 20px;
+      color: #73879C;
+      font-family: "Helvetica Neue",Roboto,Arial,"Droid Sans",sans-serif;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 1.471;
+    }
+
+    #app-versions .panel_toolbox {
+      float: right;
+      min-width: 70px;
+      margin: 5px 0 6px;
+    }
+
+    #app-versions .panel_toolbox > li {
+      float: left;
+      cursor: pointer
+    }
+
+    #app-versions .panel_toolbox > li > a {
+      padding: 5px;
+      color: #C5C7CB;
+      font-size: 14px
+    }
+
+    #app-versions .panel_toolbox > li > a:hover {
+      background: #F5F7FA
+    }
+
+    .x_panel, .x_title {
+      margin-bottom: 10px
+    }
+
+    .accordion .panel-heading {
+      background: #F2F5F7;
+      padding: 13px;
+      width: 100%;
+      display: block
+    }
+
+    .accordion .panel:hover {
+      background: #F2F5F7
+    }
+
+    .x_panel {
+      width: 100%;
+      padding: 10px 17px;
+      display: inline-block;
+      background: #fff;
+      border: 1px solid #E6E9ED;
+      -webkit-column-break-inside: avoid;
+      -moz-column-break-inside: avoid;
+      column-break-inside: avoid;
+      opacity: 1;
+      transition: all .2s ease;
+      position: relative;
+    }
+
+    .x_title {
+      border-bottom: 2px solid #E6E9ED;
+      padding: 1px 5px 6px;
+      margin-bottom: 10px;
+    }
+
+    .x_title .filter {
+      width: 40%;
+      float: right
+    }
+
+    .x_content, table.tile td ul li a, table.tile_info {
+      width: 100%
+    }
+
+    .x_title h2 {
+      margin: 5px 0 6px;
+      float: left;
+      display: block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .x_title h2 small {
+      margin-left: 10px
+    }
+
+    .x_title span {
+      color: #BDBDBD
+    }
+
+    .x_content {
+      padding: 0 5px 6px;
+      float: left;
+      clear: both;
+      margin-top: 5px
+    }
+
+    .x_content h4 {
+      font-size: 16px;
+      font-weight: 500
+    }
+
+    .widget_summary {
+      width: 100%;
+      display: -ms-inline-flexbox;
+      display: inline-flex
+    }
+
+    .widget_summary .w_left {
+      float: left;
+      text-align: left
+    }
+
+    .widget_summary .w_center {
+      float: left
+    }
+
+    .widget_summary .w_right {
+      float: left;
+      text-align: right
+    }
+
+    .widget_summary .w_right span {
+      font-size: 20px
+    }
+
+    .w_20 {
+      width: 20%
+    }
+
+    .w_25 {
+      width: 25%
+    }
+
+    .w_55 {
+      width: 55%
+    }
+
+    .progress {
+      border-radius: 0
+    }
+
+    .progress-bar-info {
+      background-color: #3498DB
+    }
+
+    .progress-bar-success {
+      background-color: #26B99A
+    }
+
+    .bg-green {
+      background: #1ABB9C !important;
+      border: 1px solid #1ABB9C !important;
+      color: #fff
+    }
+
+    .bg-red {
+      background: #E74C3C !important;
+      border: 1px solid #E74C3C !important;
+      color: #fff
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div class="x_panel tile fixed_height_320" id="app-versions">
+          <div class="x_title">
+            <h2>App Versions</h2>
+            <ul class="nav navbar-right panel_toolbox">
+              <li>
+                <a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+              </li>
+              <li class="dropdown">
+                <a class=""><i class="fa fa-wrench"></i></a>
+              </li>
+              <li>
+                <a class="close-link"><i class="fa fa-close"></i></a>
+              </li>
+            </ul>
+            <div class="clearfix"></div>
+          </div>
+          <div class="x_content">
+            <h4>App Usage across versions</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" 
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" 
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script>
+    const widgetSummaries = [
+      {
+        version: '0.1.5.2',
+        progress: 60,
+        size: '123k'
+      },
+      {
+        version: '0.1.5.3',
+        progress: 45,
+        size: '53k'
+      },
+      {
+        version: '0.1.5.4',
+        progress: 25,
+        size: '23k'
+      },
+      {
+        version: '0.1.5.5',
+        progress: 5,
+        size: '3k'
+      },
+      {
+        version: '0.1.5.6',
+        progress: 2,
+        size: '1k'
+      }
+    ]
+
+    const widgetSummariesContentField = document.querySelector('#app-versions .x_content')
+
+    let widgetSummariesContent = '<h4>App Usage across versions</h4>'
+    for (let widgetSummary of widgetSummaries) {
+      widgetSummariesContent += `<div class="widget_summary">
+      <div class="w_left w_25">
+        <span>${widgetSummary.version}</span>
+      </div>
+      <div class="w_center w_55">
+        <div class="progress">
+          <div class="progress-bar bg-green" role="progressbar" aria-valuenow="${widgetSummary.progress}" aria-valuemin="0" aria-valuemax="100" style="width: ${widgetSummary.progress}%;">
+            <span class="sr-only">${widgetSummary.progress}% Complete</span>
+          </div>
+        </div>
+      </div>
+      <div class="w_right w_20">
+        <span>${widgetSummary.size}</span>
+      </div>
+      <div class="clearfix"></div>
+    </div>`
+    }
+    
+    widgetSummariesContentField.innerHTML = widgetSummariesContent
+  </script>
+</body>
+
+</html>

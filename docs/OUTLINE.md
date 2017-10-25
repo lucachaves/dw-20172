@@ -216,8 +216,9 @@
 **Exercício:**
 * Gerar o `Top Tiles` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
   * [Proposta](../codes/js/examples/gentelella-top-tiles)
-* Gerar o `App Version Panel` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)<br>
-![app version panel](../codes/js/examples/gentelella-app-versions/app-version-panel.png)
+* Gerar o `App Version Panel` do Dashboard [Gentelella](https://github.com/puikinsh/gentelella)
+  * [Proposta](../codes/js/examples/gentelella-app-versions/)<br>
+  ![app version panel](../codes/js/examples/gentelella-app-versions/app-version-panel.png)
 * IMC com Validador
   * [Proposta](../codes/js/examples/bmi-validator/)
 
