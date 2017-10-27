@@ -236,6 +236,7 @@
 
 **Exercício:**
 * Habilitar os gráficos do [Gentelella](https://github.com/puikinsh/gentelella) e do Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) com pacotes do Javascript, e usando dados em JSON requisitados através de arquivos `.json`.
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/js/ample-admin-charts/](../codes/js/ample-admin-charts/)
 * Montar um tela para obter informação de um IP público usando a [IP API](http://ip-api.com/docs/api:json).
 
 ## \# 10 - Avalição de HTML e CSS (03/11/2017)
