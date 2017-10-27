@@ -27,12 +27,14 @@
       generateGradient: true,
       highDpiSupport: true     // High resolution support
     }
-    let target = document.getElementById('gauge') // your canvas element
-    let gauge = new Gauge(target).setOptions(opts) // create sexy gauge!
-    gauge.maxValue = 3000 // set max gauge value
-    gauge.setMinValue(0)  // Prefer setter over gauge.minValue = 0
-    gauge.animationSpeed = 32 // set animation speed (32 is default value)
-    gauge.set(1250) // set actual value
+
+    let target = document.querySelector('#gauge') // your canvas element
+    
+    let gaugeChart = new Gauge(target).setOptions(opts) // create sexy gauge!
+    gaugeChart.maxValue = 3000 // set max gauge value
+    gaugeChart.setMinValue(0)  // Prefer setter over gauge.minValue = 0
+    gaugeChart.animationSpeed = 32 // set animation speed (32 is default value)
+    gaugeChart.set(1250) // set actual value
   </script>
 </body>
 </html>
