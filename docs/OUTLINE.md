@@ -232,7 +232,7 @@
     - [gauge.js](http://bernii.github.io/gauge.js/): [exemplo](../codes/js/examples/gauge-js/)
     - [jquery sparkline](https://omnipotent.net/jquery.sparkline/#s-docs): [bar](../codes/js/examples/jquery-sparkline-bar/)
   - AJAX & Fetch
-    - [Gráfico de linha com Fetch](../codes/js/examples/chart-js-bar/)
+    - [Gráfico de barra com Fetch](../codes/js/examples/chart-js-bar/)
 
 **Exercício:**
 * Habilitar os gráficos do [Gentelella](https://github.com/puikinsh/gentelella) e do Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) com pacotes do Javascript, e usando dados em JSON requisitados através de arquivos `.json`.
