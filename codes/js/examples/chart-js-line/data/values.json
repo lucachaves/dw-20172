@@ -1,0 +1,20 @@
+{
+  "labels": [
+    "Symbian",
+    "Blackberry",
+    "Other",
+    "Android",
+    "IOS"
+  ],
+  "datasets": [
+    {
+      "data": [
+        15,
+        20,
+        30,
+        10,
+        30
+      ]
+    }
+  ]
+}
