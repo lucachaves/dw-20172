@@ -48,7 +48,7 @@ Lembrando que cada projeto deve incluir o arquivo `README.md` no raiz do seu pro
 
 ### Equipes
 
-Para facilitar a listagem dos temas, todos os interessados devem declarar suas propostas [neste documento](https://padlet.com/lucachaves/projetodw20171).
+Para facilitar a listagem dos temas, todos os interessados devem declarar suas propostas [neste documento](https://padlet.com/lucachaves/projetodw20172).
 
 **Equipe 1#**: [Nome](https://github.com/username/repo)
 
