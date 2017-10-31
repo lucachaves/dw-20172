@@ -51,7 +51,7 @@ const clearTable = table => {
 
 const loadSystemInfo = () => {
   clearTable(systemInfoTbody)
-  fetch('../data/system.json')
+  fetch('data/system.json')
     .then(res => res.json())
     .then(systemInfo => {
       systemInfoTbody.innerHTML = Object.entries(systemInfo)
@@ -62,7 +62,7 @@ const loadSystemInfo = () => {
 
 const loadNetworkInfo = () => {
   clearTable(networkInfoTable)
-  fetch('../data/network.json')
+  fetch('data/network.json')
     .then(res => res.json())
     .then(networkInfo => {
       const header = Object.keys(networkInfo[0])
@@ -77,7 +77,7 @@ const loadNetworkInfo = () => {
 
 const loadMemoryInfo = () => {
   clearTable(memoryInfoTbody)
-  fetch('../data/memory.json')
+  fetch('data/memory.json')
     .then(res => res.json())
     .then(memoryInfo => {
       const datas = Object.entries(memoryInfo).map(info => Object.values(info))
@@ -94,7 +94,7 @@ const loadMemoryInfo = () => {
 
 const loadServiceInfo = () => {
   clearTable(serviceInfoTbody)
-  fetch('../data/service.json')
+  fetch('data/service.json')
     .then(res => res.json())
     .then(serviceInfo => {
       const datas = serviceInfo.map(Object.values)
@@ -111,7 +111,7 @@ const loadServiceInfo = () => {
 
 const loadDiskInfo = () => {
   clearTable(diskInfoTable)
-  fetch('../data/disk.json')
+  fetch('data/disk.json')
     .then(res => res.json())
     .then(diskInfo => {
       const header = Object.keys(diskInfo[0])

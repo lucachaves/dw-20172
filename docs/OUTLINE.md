@@ -262,7 +262,7 @@
 
 * * *
 
-> Todos os detalhes do simulado estão disponíveis nesta [página](../exams/simulado-html-css-1/README.md)
+> Todos os detalhes do simulado estão disponíveis nesta [página](../exams/simulado-js/README.md)
 
 > A ordem de apresentação estará disponível nessa [página](../exams/projeto.md).
 
