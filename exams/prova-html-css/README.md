@@ -51,12 +51,14 @@ mas considerando que:
 * O título do painel deve ser feito com um `h4.card-title` de tamanho `16px`, negrito de `600`, altura de linha de `16px` e margem inferior de `30px`;
 * A classe `counter` deve possuir a cor `#505458`;
 * O conteúdo do painel `10 Up` deve seguir a estrutura:
+
 ```html
 <div>
   <h3 class="counter">10</h3>
   <p class="text-muted">Up</p>
 </div>
 ``` 
+
 * O painel deve apresentar a disponsição conforme a *Figura 2*.
 
 *Figura 2 - Painel de Hosts*<br>
@@ -88,12 +90,14 @@ e as seguintes observações:
 * O log que estiver com falha de exibir o ícone do font-awesome `fa-thumbs-down` com cor `#cc7c5d`, já o de sucesso deve usar o ícone `fa-thumbs-up` e cor `#57c5a5`. **Obs:** para deixar o ícone arredondado veja esse [exemplo](http://fontawesome.io/examples/#stacked).
 * Adicione um distânciamento entre os ícones e a descrição à direita.
 * Crie a seguinte estrutura para descrção do log:
+
 ```html
 <div>
   <p class="name">Moodle IFPB</p>
   <p class="response">Timeout (11/02/17 03:33:51)</p>
 </div>
 ```
+
 * Em nome `.name` deve-se configurar a cor `#333333`, a altura de linha de `1.6` e zerar as margens.
 * Na resposta `.response` deve-se configurar a cor `#9a9da0`, o tamanho de fonte de `12px` e zerar as margens.
 * Em cada log deve haver uma borda inferior de `1px solid #e9ecef`, com exceção do último log.

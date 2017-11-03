@@ -254,7 +254,7 @@
 
 * * *
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css-1/README.md)
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
 
 > Além da avaliação será divulgado os critérios do [projeto final](../exams/projeto.md)
 
