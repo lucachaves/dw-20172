@@ -52,7 +52,7 @@ mas considerando que:
 * A classe `counter` deve possuir a cor `#505458`;
 * O conteúdo do painel `10 Up` deve seguir a estrutura:
 
-```html
+```
 <div>
   <h3 class="counter">10</h3>
   <p class="text-muted">Up</p>
@@ -91,7 +91,7 @@ e as seguintes observações:
 * Adicione um distânciamento entre os ícones e a descrição à direita.
 * Crie a seguinte estrutura para descrção do log:
 
-```html
+```
 <div>
   <p class="name">Moodle IFPB</p>
   <p class="response">Timeout (11/02/17 03:33:51)</p>
