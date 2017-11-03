@@ -256,7 +256,7 @@
 
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
 
-> Além da avaliação será divulgado os critérios do [projeto final](../exams/projeto.md)
+> Além da avaliação será divulgado o critério de avaliação do [projeto final](../exams/projeto.md)
 
 ## \# 11 - Simulado de Javascript (10/11/2017)
 
