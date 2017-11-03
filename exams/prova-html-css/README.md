@@ -78,7 +78,7 @@ mas considerando que:
 ![Layout da página](assets/uptime.png)
 
 
-**COMPONENTE 4 - (50%)** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime (%)`, mas considerando a aparência da *Figura 5*:
+**COMPONENTE 4 - (50%)** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Logs`, mas considerando a aparência da *Figura 5*:
 
 *Figura 5 - Painel de Hosts*<br>
 
@@ -101,7 +101,7 @@ e as seguintes observações:
 * Na resposta `.response` deve-se configurar a cor `#9a9da0`, o tamanho de fonte de `12px` e zerar as margens.
 * Em cada log deve haver uma borda inferior de `1px solid #e9ecef`, com exceção do último log.
 
-**COMPONENTE 5 - (50%)** Crie o conteúdo do Painel da tabela dos registros de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime (%)`, mas considerando a aparência da *Figura 6*:
+**COMPONENTE 5 - (50%)** Crie o conteúdo do Painel da tabela dos registros de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime`, mas considerando a aparência da *Figura 6*:
 
 *Figura 6 - Painel da tabela dos registros de disponibilidade*<br>
 
