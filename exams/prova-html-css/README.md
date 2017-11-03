@@ -22,7 +22,7 @@ Uma opção considerada interessante foi o [Pingdom](https://www.pingdom.com), q
 
 Então, diante dessa problemática, a DTI abriu um processo de seleção com os alunos do IFPB para recrutar alguém com domínio no tema, e que pudesse criar um pequeno sistema de monitoramento Web.
 
-A princípio foi disponibilizado um layout de como seria o sistema neste [arquivo](site.zip), em uma versão bem inicial já inicializada por um funcionário do setor.
+A princípio foi disponibilizado um layout de como seria o sistema neste [arquivo](code.zip), em uma versão bem inicial já inicializada por um funcionário do setor.
 Mas, a ideia é que no final a página fique semelhante ao da *Figura 1*. Portanto, cabe a você candidato continuar o desenvolvimento através das questões que serão levantadas a seguir.
 
 *Figura 1 - Layout da página*
