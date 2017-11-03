@@ -59,5 +59,4 @@ Toda a comunicação será realizada usando o [![Slack Status](https://ifpb.hero
 * [Manuais do PHP](http://www.php.net)
 * [Manuais do MySQL](http://www.mysql.com)
 
-
 E para completar ainda mais a listagem existe estes [exemplares](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#php) como outros indicações.

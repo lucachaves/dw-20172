@@ -8,7 +8,7 @@ Leia as observações a seguir:
 * Cada COMPONENTE é expressa através dessa indicação **(DD%)** que significa o critério de pontuação, contudo, a desorganização pode penalizar a pontuação final;
 * No arquivo de resposta inclua um bloco de comentário no início de seu conteúdo com o nome e a matrícula do aluno;
 * Ao concluir as questões chame o professor para avaliar a sua prova;
-* Depois da avaliação envie os arquivos num diretório compactado, seguindo o formato de nome **ALUNO-MATRICULA** para o email **luiz.chaves.ifpb+avaliacoesdw20171@gmail.com** com:
+* Depois da avaliação envie os arquivos num diretório compactado, seguindo o formato de nome **ALUNO-MATRICULA** para o email **luiz.chaves.ifpb+avaliacoesdw20172@gmail.com** com:
 
 > **Assunto:** [IFPB] Prova I DW
 >
@@ -113,3 +113,5 @@ e as seguintes observações:
 * Na coluna status, os dados devem ser estruturados com `badge` do [Bootstrap](http://getbootstrap.com).
 * As bordas devem ser preservadas conforme a *Figura 6*.
 * Aplique o recúo interno de `.2rem .5rem` nas células da tabela
+
+> [Alternativa de resposta](code-response/)
