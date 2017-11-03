@@ -22,14 +22,13 @@ Uma opção considerada interessante foi o [Pingdom](https://www.pingdom.com), q
 
 Então, diante dessa problemática, a DTI abriu um processo de seleção com os alunos do IFPB para recrutar alguém com domínio no tema, e que pudesse criar um pequeno sistema de monitoramento Web.
 
-A princípio foi disponibilizado um layout de como seria o sistema neste [arquivo](code.zip), em uma versão bem inicial já inicializada por um funcionário do setor.
-Mas, a ideia é que no final a página fique semelhante ao da *Figura 1*. Portanto, cabe a você candidato continuar o desenvolvimento através das questões que serão levantadas a seguir.
+A princípio foi disponibilizado um layout de como seria o sistema neste [arquivo](code.zip), em uma versão bem inicial já inicializada por um funcionário do setor, mas, a ideia é que no final a página fique semelhante ao da *Figura 1*. Portanto, cabe a você candidato continuar o desenvolvimento através das questões que serão levantadas a seguir.
 
 *Figura 1 - Layout da página*
 
 ![Layout da página](assets/layout.png)
 
-Para facilitar esse processo, o desenvolvimento será distribuido em **componentes** que serão abordados a seguir. Alguns conteúdos já serão previamente disponibilizados por meio do arquivo obtido, por exemplo, um dos componentes será o painel de registros de monitoramento (Logs), e como ponto de partida, os arquivos disponibilizados já oferecem algum conteúdo para a criação e estilização do painel.
+Para facilitar esse processo, o desenvolvimento será distribuido em **componentes** e alguns conteúdos serão previamente disponibilizados por meio do arquivo obtido, por exemplo, um dos componentes será o painel de registros de monitoramento (Logs), e como ponto de partida, os arquivos disponibilizados já oferecem algum conteúdo para a criação de estruturas e estilização do painel, respectivamente em [`code/index.html`](code/index.html) e [`code/css/custom.css`](code/css/custom.css).
 
 > **Observação:** A princípio deve ser entregue ao menos o Componente 4 ou 5.
 

@@ -34,7 +34,7 @@ Além disso, é possível visualizar em detalhe o [roteiro das aulas](docs/OUTLI
 
 A nota final será computada através da média aritmética das avaliações e poderá ser adicionada atividades extras.
 
-### Provas Prática
+### Provas Práticas
 * Avaliação I: [HTML & CSS](exams/prova-html-css/);
 * Avaliação II: [JS](exams/prova-js);
 * Avaliação III: [PHP](exams/prova-php).
