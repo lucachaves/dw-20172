@@ -34,7 +34,7 @@ Para facilitar esse processo, o desenvolvimento será distribuido em **component
 
 ### COMPONENTES
 
-**COMPONENTE 1 - (E 50%)** Crie o conteúdo do Painel de Hosts no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Hosts`:
+**COMPONENTE 1 - (50%)** Crie o conteúdo do Painel de Hosts no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Hosts`:
 
 ```html
 <!-- 
@@ -68,14 +68,14 @@ mas considerando que:
 
 *Figura 3 - Painel do tempo de reposta*<br>
 
-![Layout da página](assets/uptime.png)
+![Layout da página](assets/response-time.png)
 
 
 **COMPONENTE 3 - (50%)** Crie o conteúdo do Painel de tempo de disponibilidade no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime (%)`, mas considerando os estilos do Componente 1 e a aparência da *Figura 4*:
 
 *Figura 4 - Painel do tempo de disponibilidade*<br>
 
-![Layout da página](assets/response-time.png)
+![Layout da página](assets/uptime.png)
 
 
 **COMPONENTE 4 - (50%)** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO Uptime (%)`, mas considerando a aparência da *Figura 5*:
@@ -110,6 +110,6 @@ e as seguintes observações:
 e as seguintes observações:
 
 * Crie um tabela conforme o estilo do [Bootstrap](http://getbootstrap.com).
-* Na coluna status os dados devem ser estruturados com `badge` do [Bootstrap](http://getbootstrap.com).
+* Na coluna status, os dados devem ser estruturados com `badge` do [Bootstrap](http://getbootstrap.com).
 * As bordas devem ser preservadas conforme a *Figura 6*.
 * Aplique o recúo interno de `.2rem .5rem` nas células da tabela
