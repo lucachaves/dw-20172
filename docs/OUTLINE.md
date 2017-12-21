@@ -233,24 +233,36 @@
     - [jquery sparkline](https://omnipotent.net/jquery.sparkline/#s-docs): [bar](../codes/js/examples/jquery-sparkline-bar/)
   - AJAX & Fetch
     - [Gráfico de barra com Fetch](../codes/js/examples/chart-js-bar/)
+    - Usando o `http-server` para usar o Fetch
+    ```
+    # apt-get install node
+    $ npm install http-server -g
+    $ http-server --cors
+    Starting up http-server, serving ./
+    Available on:
+      http://127.0.0.1:8080
+      http://10.0.24.10:8080
+    Hit CTRL-C to stop the server
+    ```
 
 **Exercício:**
 * Habilitar os gráficos do [Gentelella](https://github.com/puikinsh/gentelella) e do Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) com pacotes do Javascript, e usando dados em JSON requisitados através de arquivos `.json`.
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/js/ample-admin-charts/](../codes/js/examples/ample-admin-charts/)
 * Montar um tela para obter informação de um IP público usando a [IP API](http://ip-api.com/docs/api:json).
 
 ## \# 10 - Avalição de HTML e CSS (03/11/2017)
 
 * * *
 
-> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css-1/README.md)
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
 
-> Além da avaliação será divulgado os critérios do [projeto final](../exams/projeto.md)
+> Além da avaliação será divulgado o critério de avaliação do [projeto final](../exams/projeto.md)
 
 ## \# 11 - Simulado de Javascript (10/11/2017)
 
 * * *
 
-> Todos os detalhes do simulado estão disponíveis nesta [página](../exams/simulado-html-css-1/README.md)
+> Todos os detalhes do simulado estão disponíveis nesta [página](../exams/simulado-js/README.md)
 
 > A ordem de apresentação estará disponível nessa [página](../exams/projeto.md).
 

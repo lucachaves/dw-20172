@@ -34,10 +34,10 @@ Além disso, é possível visualizar em detalhe o [roteiro das aulas](docs/OUTLI
 
 A nota final será computada através da média aritmética das avaliações e poderá ser adicionada atividades extras.
 
-### Provas Prática
-* Avaliação I: HTML & CSS;
-* Avaliação II: JS;
-* Avaliação III: PHP.
+### Provas Práticas
+* Avaliação I: [HTML & CSS](exams/prova-html-css/);
+* Avaliação II: [JS](exams/prova-js);
+* Avaliação III: [PHP](exams/prova-php).
 
 ### Trabalho
 * Projeto I: [A especificação do projeto](assessment/projeto.md).
@@ -58,6 +58,5 @@ Toda a comunicação será realizada usando o [![Slack Status](https://ifpb.hero
 * [Javascripts Books](http://jsbooks.revolunet.com/)
 * [Manuais do PHP](http://www.php.net)
 * [Manuais do MySQL](http://www.mysql.com)
-
 
 E para completar ainda mais a listagem existe estes [exemplares](https://github.com/vhf/free-programming-books/blob/master/free-programming-books.md#php) como outros indicações.
