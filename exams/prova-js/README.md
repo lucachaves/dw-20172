@@ -46,7 +46,7 @@ TODO Hosts (data/status.json)
 
 mas considerando que:
 
-* Os dados para geração do HTML está em `data/status.json`.
+* Os dados para geração do HTML estão no arquivo `data/status.json`.
 * O conteúdo do painel deve seguir a estrutura HTML:
 
 ```
@@ -80,7 +80,7 @@ mas considerando que:
 ![Layout da página](assets/uptime.png)
 
 
-**COMPONENTE 4 - (50%)** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO LOGS`, mas considerando a aparência da *Figura 5*:
+**COMPONENTE 4 - (50%)** Crie o conteúdo do Painel de registros de monitoramento (Logs) no arquivo [`code/index.html`](code/index.html), especificamente em `TODO LOGS`, mas considerando a aparência semelhante à *Figura 5*:
 
 *Figura 5 - Painel de Hosts*<br>
 
@@ -88,7 +88,7 @@ mas considerando que:
 
 e as seguintes observações:
 
-* Os dados para geração do HTML do log está em `data/logs.json`.
+* Os dados para geração do HTML do log estão no arquivo `data/logs.json`.
 * O conteúdo de cada log deve possuir um HTML semelhante a esta estrutura:
 
 ```
@@ -116,7 +116,7 @@ e as seguintes observações:
 
 e as seguintes observações:
 
-* Os dados para geração do HTML do uptime está em `data/uptime.json`.
+* Os dados para geração do HTML do uptime estão no arquivo `data/uptime.json`.
 * O conteúdo de cada log deve possuir um HTML semelhante a esta estrutura:
 
 ```
