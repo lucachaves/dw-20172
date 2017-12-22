@@ -277,7 +277,14 @@
 
 **Conteúdo:**
 - PHP
-  - Configuração do ambiente PHP
+  - Configuração do ambiente PHP:
+    * Instale o [VirtualBox](https://www.virtualbox.org/) e [Vagrant](https://www.vagrantup.com/)
+    * Para criar a máquina virtual com o ambiente para o PHP, acesse a pasta [`codes/php`](../codes/php) no terminal e execute (**Obs**: Na primeira vez este comando pode ser lento pois é o momento em que a imagem do SO e os programas serão obtidos e instalados):
+    ```
+    $ vagrant up
+    ```
+    * Para testar se o `PHP` ficou corretamente instalado acesse a página de teste [http://localhost:8080/php/phpinfo.php](http://localhost:8080/php/phpinfo.php)
+
 
 **Exercício:**
 - Configurar ambiente PHP
