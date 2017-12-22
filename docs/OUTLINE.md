@@ -284,11 +284,14 @@
     $ vagrant up
     ```
     * Para testar se o `PHP` ficou corretamente instalado acesse a página de teste [http://localhost:8080/php/phpinfo.php](http://localhost:8080/php/phpinfo.php)
-
+    * Para o `PHP` gerar mensagens warnings e erros é necessário editar o arquivo `/etc/php/7.1/apache2/php.ini` na diretiva `display_errors = Off` para `display_errors = On`. Por fim, reinicie o servidor `Apache`: 
+    ```
+    $ sudo service apache2 restart
+    ```
 
 **Exercício:**
 - Revisar os passos de configuração do ambiente PHP
-- Estudar a sintaxe do PHP ([codes/php/code/core/syntax/](../codes/php/code/core/syntax/))
+- Estudar a sintaxe do PHP através dos arquivos em ([codes/php/code/core/syntax/](../codes/php/code/core/syntax/)) e pela documentação oficial (http://php.net/manual/en/).
 
 <!--
 ## \# 14 - (26/01/2018)
