@@ -10,7 +10,7 @@ Leia as observações a seguir:
 * Ao concluir as questões chame o professor para avaliar a sua prova;
 * Depois da avaliação envie os arquivos num diretório compactado, seguindo o formato de nome **ALUNO-MATRICULA** para o email **luiz.chaves.ifpb+avaliacoesdw20172@gmail.com** com:
 
-> **Assunto:** [IFPB] Prova I DW
+> **Assunto:** [IFPB] Prova II DW
 >
 > **Conteúdo:** Os arquivos da prova do aluno < nome do aluno > (< matrícula >) estão em anexo.
 
@@ -18,7 +18,7 @@ Leia as observações a seguir:
 
 Graças ao sucesso da primeira etapa de seleção do IFPB para recrutar pessoas que gerassem o Front-End de um ferramente semelhante ao [Pingdom](https://www.pingdom.com), é que o IFPB veio continuar a seleção em mais uma etapa, mas agora envolvendo a geração dinâmica de conteúdo com o Javascript.
 
-A princípio foi disponibilizado o projeto HTML e CSS neste [link](code.zip), contudo, o sistema deve gerar a interface semelhante ao da *Figura 1* usando dados JSON na pasta `code/data/`.
+A princípio foi disponibilizado o projeto HTML e CSS neste [link](code.zip), contudo, o sistema deve gerar a interface semelhante ao da *Figura 1* usando dados JSON na pasta `code/data/` e o arquivo Javascript `code/js/load.js`.
 
 *Figura 1 - Layout da página*
 
@@ -138,4 +138,4 @@ e as seguintes observações:
   * `<span class="badge badge-warning">UP</span>`
   * `<span class="badge badge-success">UP</span>`
 
-<!-- > [Alternativa de resposta](code-response/) -->
+> [Alternativa de resposta](code-response/)
