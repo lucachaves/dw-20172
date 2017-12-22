@@ -11,7 +11,7 @@
 [\# 09 - Pacotes JS e Consumindo JSON (27/10/2017 Sexta)](#-09---pacotes-js-e-consumindo-json-27102017-sexta)<br>
 [\# 10 - Avalição de HTML e CSS (03/11/2017)](#-10---avalição-de-html-e-css-03112017)<br>
 [\# 11 - Simulado de Javascript (15/12/2017)](#-11---simulado-de-javascript-15122017)<br>
-[\# 12 - Avaliação de JS (22/12/2017 Sexta)](#-12---avaliação-de-js-22122017-sexta)<br>
+[\# 12 - Avaliação de JS e Ambiente do PHP (22/12/2017 Sexta)](#-12---avaliação-de-js-e-ambiente-do-php-22122017-sexta)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -268,7 +268,7 @@
 
 > A ordem de apresentação estará disponível nessa [página](../exams/projeto.md).
 
-## \# 12 - Avaliação de JS (22/12/2017 Sexta)
+## \# 12 - Avaliação de JS e Ambiente do PHP (22/12/2017 Sexta)
 
 * * *
 **Avaliação II: Javascript**
@@ -287,7 +287,8 @@
 
 
 **Exercício:**
-- Configurar ambiente PHP
+- Revisar os passos de configuração do ambiente PHP
+- Estudar a sintaxe do PHP ([codes/php/code/core/syntax/](../codes/php/code/core/syntax/))
 
 <!--
 ## \# 14 - (26/01/2018)
