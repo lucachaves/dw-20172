@@ -10,7 +10,8 @@
 [\# 08 - Geração Dinâmica com JS (24/10/2017 Terça)](#-08---geração-dinâmica-com-js-24102017-terça)<br>
 [\# 09 - Pacotes JS e Consumindo JSON (27/10/2017 Sexta)](#-09---pacotes-js-e-consumindo-json-27102017-sexta)<br>
 [\# 10 - Avalição de HTML e CSS (03/11/2017)](#-10---avalição-de-html-e-css-03112017)<br>
-[\# 11 - Simulado de Javascript (10/11/2017)](#-11---simulado-de-javascript-10112017)<br>
+[\# 11 - Simulado de Javascript (15/12/2017)](#-11---simulado-de-javascript-15122017)<br>
+[\# 12 - Avaliação de JS (22/12/2017 Sexta)](#-12---avaliação-de-js-22122017-sexta)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -249,6 +250,7 @@
 * Habilitar os gráficos do [Gentelella](https://github.com/puikinsh/gentelella) e do Ample Admin [Lite](https://wrappixel.com/templates/ample-admin-lite/) com pacotes do Javascript, e usando dados em JSON requisitados através de arquivos `.json`.
   * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/js/ample-admin-charts/](../codes/js/examples/ample-admin-charts/)
 * Montar um tela para obter informação de um IP público usando a [IP API](http://ip-api.com/docs/api:json).
+  * Proposta de [Walisson Silva](https://github.com/walissonsilva): [codes/js/ip-info-api/](../codes/js/ip-info-api/)
 
 ## \# 10 - Avalição de HTML e CSS (03/11/2017)
 
@@ -258,7 +260,7 @@
 
 > Além da avaliação será divulgado o critério de avaliação do [projeto final](../exams/projeto.md)
 
-## \# 11 - Simulado de Javascript (10/11/2017)
+## \# 11 - Simulado de Javascript (15/12/2017)
 
 * * *
 
@@ -266,26 +268,21 @@
 
 > A ordem de apresentação estará disponível nessa [página](../exams/projeto.md).
 
-## \# 12 - (15/12/2017)
+## \# 12 - Avaliação de JS (22/12/2017 Sexta)
 
 * * *
-
 **Avaliação II: Javascript**
 
-**Conteúdo:**
-- PHP
-
-**Exercício:**
-
-## \# 13 - (22/12/2017 Sexta)
-
-* * *
+> Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-js/)
 
 **Conteúdo:**
 - PHP
+  - Configuração do ambiente PHP
 
 **Exercício:**
+- Configurar ambiente PHP
 
+<!--
 ## \# 14 - (26/01/2018)
 
 * * *
@@ -346,3 +343,4 @@
 * * *
 
 **Apresentação de Projetos**
+-->
