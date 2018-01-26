@@ -1,5 +1,49 @@
 # PHP
 
+- [Variable](#variable)
+  - [Definition](#definition)
+  - [Pattern](#pattern)
+  - [Dinamic Type](#dinamic-type)
+  - [Case Sensitive](#case-sensitive)
+  - [Constante](#constante)
+  - [Variable Variables](#variable-variables)
+  - [Variable from array](#variable-from-array)
+  - [Passing value by value or reference](#passing-value-by-value-or-reference)
+  - [Predefined Variables](#predefined-variables)
+  - [Magic constants](#magic-constants)
+- [Boolean](#boolean)
+- [Number](#number)
+  - [Integer](#integer)
+  - [Float](#float)
+  - [NaN](#nan)
+  - [INF](#inf)
+- [String](#string)
+  - [Single Quoted](#single-quoted)
+  - [Double Quoted](#double-quoted)
+  - [Heredoc Syntax](#heredoc-syntax)
+  - [Nowdoc Syntax](#nowdoc-syntax)
+- [Array](#array)
+  - [json_decode()](#json_decode)
+  - [json_encode()](#json_encode)
+  - [explode(), implode()](#explode-implode)
+- [Operator](#operator)
+  - [Arithmetic](#arithmetic)
+  - [Comparison ](#comparison )
+  - [concat](#concat)
+  - [Execution Operators](#execution-operators)
+- [Statement](#statement)
+  - [if, else, elseif/else if](#if, else, elseif/else if)
+  - [for](#for)
+  - [foreach](#foreach)
+  - [require, include, require_once, include_once](#require-include-require_once-include_once)
+- [Function](#function)
+  - [Scope](#scope)
+  - [Override](#override)
+  - [Default argument values](#default-argument-values)
+  - [Passing by reference](#passing-by-reference)
+  - [Scalar type declarations & typed param](#scalar-type-declarations--typed param)
+  - [Callback](#callback)
+
 ## References
 ---
 - [Manual do php.net](http://php.net/manual/en/)
@@ -344,7 +388,8 @@ var_dump($variable); //=> bool(false)
 
 ## Number
 ---
-### Integer  {..., -2, -1, 0, 1, 2, ...}
+
+### Integer {..., -2, -1, 0, 1, 2, ...}
 ```php
 // decimal number
 $number = 255;
@@ -616,7 +661,7 @@ $variable = [
   [4, 5, 6]
 ];
 var_dump($variable[1][2]); //=> int(6)
-```
+
 ### json_decode()
 ```php
 $variable = json_decode('{

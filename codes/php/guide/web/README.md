@@ -1,5 +1,18 @@
 # PHP - Web
 
+- [HTTP Methods](#http-methods)
+  - [$_GET](#_get)
+  - [$_POST](#_post)
+- [Cookie](#cookie)
+  - [$_COOKIE](#_cookie)
+- [Session](#session)
+  - [$_SESSION](#_session)
+  - [Auth](#auth)
+- [Layout](#layout)
+- [API](#api)
+  - [Hello World](#hello-world)
+  - [Ping API](#ping-api)
+
 ## References
 ---
 - [Manual do php.net](http://php.net/manual/en/)
@@ -117,7 +130,6 @@ TODO
 ### $_FILES 
 upload
 -->
-
 ## Cookie
 ---
 ### $_COOKIE
@@ -276,7 +288,7 @@ Reference: [Cookies](http://php.net/manual/en/features.cookies.php), [$_COOKIE](
 
 [api/hello/hello.php?name=Luiz](api/hello/hello.php?name=Luiz)
 
-## Ping API
+### Ping API
 
 - [api/ping-api/public/index.html](api/ping-api/public/index.html)
 - [api/ping-api/v1/ping.php?host=8.8.8.8](api/ping-api/v1/ping.php?host=8.8.8.8)

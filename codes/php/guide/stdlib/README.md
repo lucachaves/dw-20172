@@ -1,5 +1,15 @@
 # Function Reference
 
+- [Commands](#commands)
+  - [Comandos Básicos](#comandos-Básicos)
+    - [uname](#uname)
+    - [ping](#ping)
+    - [contrab list](#contrab-list)
+  - [Run command as the system administrator (root)](#run-command-as-the-system-administrator-root)
+    - [Cat /etc/shadow by ssh](#cat-etcshadow-by-ssh)
+  - [Change config file](#change-config-file)
+    - [Display Error php.ini](#display-error-phpini)
+
 ## References
 ---
 - [Manual do php.net](http://php.net/manual/en/)
@@ -9,7 +19,11 @@
 ## Commands
 ---
 
-### [commands/uname.php](commands/uname.php)
+### Comandos Básicos
+
+#### uname
+
+[commands/uname.php](commands/uname.php)
 ```php
 echo shell_exec('uname -a'); 
 ```
@@ -31,7 +45,9 @@ Darwin Roadrunner.local 10.3.0 Darwin Kernel Version 10.3.0: Fri Feb 26 11:58:09
 **Reference**
 - [Process Control Extensions - Program execution](http://php.net/manual/en/book.exec.php): `shell_exe()`
 
-### [commands/ping.php](commands/ping.php)
+#### ping
+
+[commands/ping.php](commands/ping.php)
 ```php
 // get host
 $host = $_GET['host'] ?? null;
@@ -54,6 +70,7 @@ header('Content-type: application/json; charset=UTF-8');
 echo $json;
 ```
 
+#### contrab list
 [commands/contrab.php](commands/contrab.php)
 ```php
 shell_exec("crontab <<EOF
@@ -68,9 +85,9 @@ echo shell_exec("crontab -l");
 - [Other Services - Network - Network Functions](http://php.net/manual/en/ref.network.php): `header()`
 - [Other Basic Extensions - JSON - JSON Functions](http://php.net/manual/en/ref.json.php): `json_encode()`, `json_decode()`
 
-## Run command as the system administrator (root)
+### Run command as the system administrator (root)
 
-### cat /etc/shadow by ssh
+#### cat /etc/shadow by ssh
 [commands/shell-exec-shadow.php](commands/shell-exec-shadow.php)
 ```php
 echo shell_exec('sudo cat /etc/shadow');
@@ -104,9 +121,10 @@ PermitRootLogin yes
 - [Process Control Extensions - Program execution](http://php.net/manual/en/book.exec.php): `shell_exe()`
 - [Other Services - SSH2](http://php.net/manual/en/ref.ssh2.php): `ssh2_connect`, `ssh2_auth_password`, `ssh2_exec`, `ssh2_fetch_stream`
 
-## Change config file
+### Change config file
 
-### [commands/display_error.php](commands/display_error.php)
+### Display Error php.ini
+ [commands/display_error.php](commands/display_error.php)
 ```php
 // sed - stream editor
 $display_error = 'sed -i -r -e 's/display_errors = Off/display_errors = On/g' /etc/php/7.1/apache2/php.ini'
