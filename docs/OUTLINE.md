@@ -12,6 +12,7 @@
 [\# 10 - Avalição de HTML e CSS (03/11/2017)](#-10---avalição-de-html-e-css-03112017)<br>
 [\# 11 - Simulado de Javascript (15/12/2017)](#-11---simulado-de-javascript-15122017)<br>
 [\# 12 - Avaliação de JS e Ambiente do PHP (22/12/2017 Sexta)](#-12---avaliação-de-js-e-ambiente-do-php-22122017-sexta)<br>
+[\# 13 - Fundamentos de PHP(26/01/2018)](#-13---fundamentos-de-php-26012018)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -234,7 +235,7 @@
     - [jquery sparkline](https://omnipotent.net/jquery.sparkline/#s-docs): [bar](../codes/js/examples/jquery-sparkline-bar/)
   - AJAX & Fetch
     - [Gráfico de barra com Fetch](../codes/js/examples/chart-js-bar/)
-    - Usando o `http-server` para usar o Fetch
+    - Usando o `http-server` (ou o [`live-server`](https://github.com/tapio/live-server)) para usar o Fetch
     ```
     # apt-get install node
     $ npm install http-server -g
@@ -293,8 +294,7 @@
 - Revisar os passos de configuração do ambiente PHP
 - Estudar a sintaxe do PHP através dos arquivos em ([codes/php/code/core/syntax/](../codes/php/code/core/syntax/)) e pela documentação oficial (http://php.net/manual/en/).
 
-<!--
-## \# 14 - (26/01/2018)
+## \# 13 - Fundamentos de PHP(26/01/2018)
 
 * * *
 
@@ -302,6 +302,17 @@
 - PHP
 
 **Exercício:**
+
+<!--
+## \# 14 - (27/01/2018 Sábado)
+
+* * *
+
+**Conteúdo:**
+- PHP
+
+**Exercício:**
+
 
 ## \# 15 - (29/01/2018 Segunda)
 
@@ -349,7 +360,7 @@
 
 **Exercício:**
 
-## \# 20 - (24/02/2018 Sábado)
+## \# 20 - Prova e Projeto (24/02/2018 Sábado)
 
 * * *
 
