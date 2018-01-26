@@ -2,7 +2,8 @@
 
 ## References
 ---
-[Manual do php.net](http://php.net/manual/en/)
+- [Manual do php.net](http://php.net/manual/en/)
+- [Language Reference](http://php.net/manual/en/langref.php)
 
 ## Variable
 ---
@@ -616,7 +617,7 @@ $variable = [
 ];
 var_dump($variable[1][2]); //=> int(6)
 ```
-### json_decode
+### json_decode()
 ```php
 $variable = json_decode('{
   "address": "192.168.0.1",
@@ -701,7 +702,7 @@ var_dump($ips2);
 var_dump($ips2[0]['address']); //=> string(11) "192.168.0.1"
 ```
 
-### json_encode
+### json_encode()
 ```php
 $variable = json_encode([
   "address" => "192.168.0.1",
@@ -728,7 +729,7 @@ var_dump($variable);
 //=> string(99) "[{"address":"192.168.0.1","mask":"255.255.255.0"},{"address":"192.168.0.2","mask":"255.255.255.0"}]"
 ```
 
-### explode, implode
+### explode(), implode()
 ```php
 $names = ['fulano', 'sicrano'];
 var_dump(implode(', ', $names)); //=> string(15) "fulano, sicrano"
@@ -743,7 +744,7 @@ var_dump(explode(", ", "fulano, sicrano"));
 // }
 ```
 
-<!-- // TODO https://medium.com/@brenodouglas/conhecendo-um-pouco-das-fun%C3%A7%C3%B5es-de-array-filter-map-e-reduce-com-php-cd02f6d51857#.ea71a973t
+<!-- TODO https://medium.com/@brenodouglas/conhecendo-um-pouco-das-fun%C3%A7%C3%B5es-de-array-filter-map-e-reduce-com-php-cd02f6d51857#.ea71a973t
 // array_filter(), array_map(), array_reduce(), array_walk(), foreach
 function selectAddress($address){
   return $address["address"];
@@ -752,7 +753,6 @@ print_r(array_map("selectAddress", $arrayAddress)); -->
 
 ## Operator
 ---
-
 [Reference](http://php.net/manual/en/language.operators.php)
 
 ### Arithmetic
@@ -802,6 +802,10 @@ var_dump(shell_exec('ping -c1 8.8.8.8'));
 
 ## Statement
 ---
+[Reference](http://php.net/manual/en/language.control-structures.php)
+
+### if, else, elseif/else if
+
 ```php
 $number = 10;
 
@@ -824,6 +828,7 @@ endif;
 //=> é 10
 ```
 
+### for
 ```php
 $names = ['Fulano', 'Sicrano', 'Betrano'];
 for($index = 0; $index < sizeof($names); $index++){
@@ -834,6 +839,8 @@ for($index = 0; $index < sizeof($names); $index++){
 // Sicrano
 // Betrano
 ```
+
+### foreach
 
 ```php
 foreach (range(0, 9) as $number) {
@@ -889,6 +896,8 @@ print_r($names);
 //   [client] => beltranosufix
 // )
 ```
+
+### require, include, require_once, include_once
 
 ## Function
 ---
@@ -978,7 +987,13 @@ var_dump($helloWorld('fulano'));  //=> string(12) "Hello fulano"
 ```
 
 <!-- 
+TODO
+
 ## Object
 ---
+Namespaces
+Errors
+Exceptions
+phpunit
 
 -->

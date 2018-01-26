@@ -3,7 +3,9 @@
 ## HTTP Methods
 ---
 ### $_GET
-[guide/web/get/hello/index.html](guide/web/get/hello/index.html)
+Reference: [$_GET](http://php.net/manual/en/reserved.variables.get.php), [Predefined Variables](http://php.net/manual/en/reserved.variables.php)
+
+[get/hello/index.html](get/hello/index.html)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -20,7 +22,7 @@
 </html>
 ```
 
-[guide/web/get/hello/hello.php](guide/web/get/hello/hello.php)
+[get/hello/hello.php](get/hello/hello.php)
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -39,11 +41,12 @@
 </html>
 ```
 
-[guide/web/get/hello/hello.php?name=Luiz](guide/web/get/hello/hello.php?name=Luiz)
+[get/hello/hello.php?name=Luiz](get/hello/hello.php?name=Luiz)
 
 ### $_POST
+Reference: [$_POST](http://php.net/manual/en/reserved.variables.post.php), [Predefined Variables](http://php.net/manual/en/reserved.variables.php)
 
-[guide/web/post/hello/index.html](guide/web/post/hello/index.html)
+[post/hello/index.html](post/hello/index.html)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -60,7 +63,7 @@
 </html>
 ```
 
-[guide/web/post/hello/hello.php](guide/web/post/hello/hello.php)
+[post/hello/hello.php](post/hello/hello.php)
 ```php
 <!DOCTYPE html>
 <html lang="en">
@@ -79,7 +82,7 @@
 </html>
 ```
 
-[guide/web/post/hello-compact/index.php](guide/web/post/hello-compact/index.php)
+[post/hello-compact/index.php](post/hello-compact/index.php)
 ```php
 <?php
   $name = $_POST['name'] ?? null;
@@ -113,11 +116,12 @@ upload
 ## Cookie
 ---
 ### $_COOKIE
+Reference: [Cookies](http://php.net/manual/en/features.cookies.php), [$_COOKIE](http://php.net/manual/en/reserved.variables.cookies.php), [setcookie()](http://php.net/manual/en/function.setcookie.php)
 
 [Cookie](http://php.net/manual/en/features.cookies.php): name, value, expire, path, domain, secure, httponly
 [setcookie()](http://php.net/manual/en/function.setcookie.php)
 
-[guide/web/cookie/counter-cookie.php](guide/web/cookie/counter-cookie.php)
+[cookie/counter-cookie.php](cookie/counter-cookie.php)
 ```php
 <?php
 	$times = $_COOKIE['count'] ?? 0;
@@ -149,7 +153,7 @@ upload
 ---
 ### $_SESSION
 
-[guide/web/session/counter-session.php](guide/web/session/counter-session.php)
+[session/counter-session.php](session/counter-session.php)
 ```php
 <?php
 	session_start();
@@ -182,13 +186,13 @@ upload
 
 ### Auth
 
-- [guide/web/session/auth/login.html](guide/web/session/auth/login.html)
-- [guide/web/session/auth/home.php](guide/web/session/auth/home.php)
+- [session/auth/login.html](session/auth/login.html)
+- [session/auth/home.php](session/auth/home.php)
 
 ## Layout
 ---
 
-[guide/web/layout/index.php](guide/web/layout/index.php)
+[layout/index.php](layout/index.php)
 ```php
 <?php
 	$page = $_GET['page'] ?? "page1";
@@ -216,7 +220,7 @@ upload
 
 ### Hello World
 
-[guide/web/api/hello/index.hello](guide/web/api/hello/index.hello)
+[api/hello/index.hello](api/hello/index.hello)
 ```html
 <!DOCTYPE html>
 <html lang="en">
@@ -257,7 +261,7 @@ upload
 </html>
 ```
 
-[guide/web/api/hello/hello.php](guide/web/api/hello/hello.php)
+[api/hello/hello.php](api/hello/hello.php)
 ```php
 <?php
   $name = $_GET['name'] ?? '';
@@ -265,10 +269,10 @@ upload
 ?>
 ```
 
-[guide/web/api/hello/hello.php?name=Luiz](guide/web/api/hello/hello.php?name=Luiz)
+[api/hello/hello.php?name=Luiz](api/hello/hello.php?name=Luiz)
 
 ## Ping API
 
-- [guide/web/api/ping-api/public/index.html](guide/web/api/ping-api/public/index.html)
-- [guide/web/api/ping-api/v1/ping.php?host=8.8.8.8](guide/web/api/ping-api/v1/ping.php?host=8.8.8.8)
-- [guide/web/api/ping-api/v1/ping.php?host=8.8.8.8&count=2](guide/web/api/ping-api/v1/ping.php?host=8.8.8.8&count=2)
+- [api/ping-api/public/index.html](api/ping-api/public/index.html)
+- [api/ping-api/v1/ping.php?host=8.8.8.8](api/ping-api/v1/ping.php?host=8.8.8.8)
+- [api/ping-api/v1/ping.php?host=8.8.8.8&count=2](api/ping-api/v1/ping.php?host=8.8.8.8&count=2)

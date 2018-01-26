@@ -292,7 +292,7 @@
 
 **Exercício:**
 - Revisar os passos de configuração do ambiente PHP
-- Estudar a sintaxe do PHP através dos arquivos em ([codes/php/code/core/syntax/](../codes/php/code/core/syntax/)) e pela documentação oficial (http://php.net/manual/en/).
+- Estudar a sintaxe do PHP através do conteúdo em ([../codes/php/code/core/](../codes/php/code/core/)) e pela [documentação oficial](http://php.net/manual/en/).
 
 ## \# 13 - Fundamentos de PHP(26/01/2018)
 
@@ -300,8 +300,12 @@
 
 **Conteúdo:**
 - PHP
+  - [Core](../codes/php/guide/core/)
+  - [Function Reference (Stdlib)](../codes/php/guide/stdlib/)
+  - [Web Features](../codes/php/guide/web/)
 
 **Exercício:**
+* 
 
 <!--
 ## \# 14 - (27/01/2018 Sábado)
