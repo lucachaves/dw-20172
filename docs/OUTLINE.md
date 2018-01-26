@@ -294,7 +294,7 @@
 - Revisar os passos de configuração do ambiente PHP
 - Estudar a sintaxe do PHP através do conteúdo em ([../codes/php/code/core/](../codes/php/code/core/)) e pela [documentação oficial](http://php.net/manual/en/).
 
-## \# 13 - Fundamentos de PHP(26/01/2018)
+## \# 13 - Fundamentos de PHP (26/01/2018)
 
 * * *
 
@@ -308,7 +308,7 @@
 * 
 
 <!--
-## \# 14 - (27/01/2018 Sábado)
+## \# 14 - Fundamentos de PHP (27/01/2018 Sábado)
 
 * * *
 

@@ -1,5 +1,10 @@
 # PHP - Web
 
+## References
+---
+- [Manual do php.net](http://php.net/manual/en/)
+  - [Features](http://php.net/manual/en/features.php)
+
 ## HTTP Methods
 ---
 ### $_GET
