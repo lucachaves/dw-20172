@@ -13,8 +13,8 @@
 ## References
 ---
 - [Manual do php.net](http://php.net/manual/en/)
-- [Language Reference](http://php.net/manual/en/langref.php)
-- [Function Reference](http://php.net/manual/en/funcref.php)
+  - [Language Reference](http://php.net/manual/en/langref.php)
+  - [Function Reference](http://php.net/manual/en/funcref.php)
 
 ## Commands
 ---
@@ -35,7 +35,7 @@ $ php -S localhost:8000 uname.php
 ```
 
 ```
-curl -I http://localhost:8000/?host=8.8.8.8
+curl -I http://localhost:8000/uname.php
 ```
 
 ```
@@ -69,6 +69,11 @@ if($host){
 header('Content-type: application/json; charset=UTF-8');
 echo $json;
 ```
+
+```
+curl -I http://localhost:8000/ping.php?host=8.8.8.8
+``` 
+
 
 #### contrab list
 [commands/contrab.php](commands/contrab.php)
@@ -119,7 +124,7 @@ PermitRootLogin yes
 
 **Reference**
 - [Process Control Extensions - Program execution](http://php.net/manual/en/book.exec.php): `shell_exe()`
-- [Other Services - SSH2](http://php.net/manual/en/ref.ssh2.php): `ssh2_connect`, `ssh2_auth_password`, `ssh2_exec`, `ssh2_fetch_stream`
+- [Other Services - SSH2](http://php.net/manual/en/ref.ssh2.php): `ssh2_connect()`, `ssh2_auth_password()`, `ssh2_exec()`, `ssh2_fetch_stream()`
 
 ### Change config file
 
@@ -137,7 +142,7 @@ ssh2_exec($connection, 'service apache2 restart');
 ```
 
 **Reference**
-- [Other Services - SSH2](http://php.net/manual/en/ref.ssh2.php): `ssh2_connect`, `ssh2_auth_password`, `ssh2_exec`
+- [Other Services - SSH2](http://php.net/manual/en/ref.ssh2.php): `ssh2_connect()`, `ssh2_auth_password()`, `ssh2_exec()`
 
 <!-- sed -i -r -e 's/short_open_tag = On/short_open_tag = Off/g' /etc/php5/fpm/php.ini
 sed -i -r -e 's/error_reporting = E_ALL & ~E_DEPRECATED/error_reporting = E_ALL | E_STRICT/g' /etc/php5/fpm/php.ini -->

@@ -280,15 +280,33 @@
 - PHP
   - Configuração do ambiente PHP:
     * Instale o [VirtualBox](https://www.virtualbox.org/) e [Vagrant](https://www.vagrantup.com/)
-    * Para criar a máquina virtual com o ambiente para o PHP, acesse a pasta [`codes/php`](../codes/php) no terminal e execute (**Obs**: Na primeira vez este comando pode ser lento pois é o momento em que a imagem do SO e os programas serão obtidos e instalados):
+    * Para criar a máquina virtual com o ambiente para o PHP, acesse a pasta [`codes/php`](https://github.com/ifpb/dw/tree/master/codes/php) no terminal e execute (**Obs**: Na primeira vez este comando pode ser lento pois é o momento em que a imagem do SO e os programas serão obtidos e instalados):
     ```
     $ vagrant up
     ```
-    * Para testar se o `PHP` ficou corretamente instalado acesse a página de teste [http://localhost:8080/php/phpinfo.php](http://localhost:8080/php/phpinfo.php)
+    * Para testar se o `PHP` ficou corretamente instalado acesse a máquina virtual através do commando `vagrant ssh` e execute o comando `php -v`
+    * Prara testar se o PHP e o Apache estão configurados acesse a página de teste [http://localhost:8080/php/phpinfo.php](http://localhost:8080/php/phpinfo.php)
     * Para o `PHP` gerar mensagens warnings e erros é necessário editar o arquivo `/etc/php/7.1/apache2/php.ini` na diretiva `display_errors = Off` para `display_errors = On`. Por fim, reinicie o servidor `Apache`: 
     ```
     $ sudo service apache2 restart
     ```
+
+> Obs: O vagrant possui alguns comandos úteis:
+> - `vagrant up`
+> - `vagrant ssh`
+> - `vagrant suspend`
+> - `vagrant destroy`
+> - `vagrant status`
+> - `vagrant box list`
+
+<!-- 
+TODO
+// /etc/apache2/mods-enabled/php7.1.conf
+// php -i
+// php -m
+// /etc/php/7.1/apache2/php.ini
+// php.ini (display_errors = Off) 
+-->
 
 **Exercício:**
 - Revisar os passos de configuração do ambiente PHP
