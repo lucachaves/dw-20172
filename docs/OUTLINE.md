@@ -13,6 +13,7 @@
 [\# 11 - Simulado de Javascript (15/12/2017)](#-11---simulado-de-javascript-15122017)<br>
 [\# 12 - Avaliação de JS e Ambiente do PHP (22/12/2017 Sexta)](#-12---avaliação-de-js-e-ambiente-do-php-22122017-sexta)<br>
 [\# 13 - Fundamentos de PHP (26/01/2018)](#-13---fundamentos-de-php-26012018)<br>
+[\# 14 - APIs em PHP (02/02/2018)](#-14---apis-em-php-02022018)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
