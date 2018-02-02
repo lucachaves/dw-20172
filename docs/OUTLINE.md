@@ -288,7 +288,12 @@
     * Prara testar se o PHP e o Apache estão configurados acesse a página de teste [http://localhost:8080/php/phpinfo.php](http://localhost:8080/php/phpinfo.php)
     * Para o `PHP` gerar mensagens warnings e erros é necessário editar o arquivo `/etc/php/7.1/apache2/php.ini` na diretiva `display_errors = Off` para `display_errors = On`. Por fim, reinicie o servidor `Apache`: 
     ```
+    $ vagrant ssh
     $ sudo service apache2 restart
+    ```
+    * No final, não esqueça de desligar seu servidor no vagrant:
+    ```
+    $ sudo vagrant suspend
     ```
 
 > Obs: O vagrant possui alguns comandos úteis:
@@ -323,20 +328,23 @@ TODO
   - [Web Features](../codes/php/guide/web/)
 
 **Exercício:**
-* 
+* Analisar os conceitos e códigos em PHP.
 
-<!--
-## \# 14 - Fundamentos de PHP (27/01/2018 Sábado)
+## \# 14 - APIs em PHP (02/02/2018)
 
 * * *
 
 **Conteúdo:**
 - PHP
+  - [Function Reference (Stdlib)](../codes/php/guide/stdlib/)
+  - [Web Features](../codes/php/guide/web/)
 
 **Exercício:**
+* Construir a base para as APIs dos projetos.
 
+<!--
 
-## \# 15 - (29/01/2018 Segunda)
+## \# 15 - (03/02/2018 Sábado)
 
 * * *
 

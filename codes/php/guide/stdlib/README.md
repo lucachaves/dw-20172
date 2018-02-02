@@ -39,7 +39,7 @@ curl -I http://localhost:8000/uname.php
 ```
 
 ```
-Darwin Roadrunner.local 10.3.0 Darwin Kernel Version 10.3.0: Fri Feb 26 11:58:09 PST 2010; root:xnu-1504.3.12~1/RELEASE_I386 i386
+Linux vagrant-ubuntu-trusty-64 3.13.0-108-generic #155-Ubuntu SMP Wed Jan 11 16:58:52 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
 ```
 
 **Reference**
