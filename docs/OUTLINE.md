@@ -14,6 +14,8 @@
 [\# 12 - Avaliação de JS e Ambiente do PHP (22/12/2017 Sexta)](#-12---avaliação-de-js-e-ambiente-do-php-22122017-sexta)<br>
 [\# 13 - Fundamentos de PHP (26/01/2018)](#-13---fundamentos-de-php-26012018)<br>
 [\# 14 - APIs em PHP (02/02/2018)](#-14---apis-em-php-02022018)<br>
+[\# 15 - Acompanhamento de Projetos (03/02/2018 Sábado)](#-15---acompanhamento-de-projetos-03022018-sábado)<br>
+[\# 16 - Avaliação de PHP (09/02/2018)](#-16---avaliação-de-php-09022018)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -343,26 +345,20 @@ TODO
 **Exercício:**
 * Construir a base para as APIs dos projetos.
 
+## \# 15 - Acompanhamento de Projetos (03/02/2018 Sábado)
+
+* * *
+
+**Exercício:**
+* Trazer as dificuldades do projeto.
+
+## \# 16 - Avaliação de PHP (09/02/2018)
+
+* * *
+
+> Entrega da API dos [projetos](https://padlet.com/lucachaves/projetodw20172).
+
 <!--
-
-## \# 15 - (03/02/2018 Sábado)
-
-* * *
-
-**Conteúdo:**
-- PHP
-
-**Exercício:**
-
-## \# 16 - (02/02/2018)
-
-* * *
-
-**Conteúdo:**
-- MySQL
-
-**Exercício:**
-
 ## \# 17 - (09/02/2018)
 
 * * *
