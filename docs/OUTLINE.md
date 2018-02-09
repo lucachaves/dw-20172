@@ -351,6 +351,7 @@ TODO
 
 **Exercício:**
 * Trazer as dificuldades do projeto.
+* Definir os serviços conforme esse [modelo](/codes/php/task/responses/api/service/cron/).
 
 ## \# 16 - Avaliação de PHP (09/02/2018)
 

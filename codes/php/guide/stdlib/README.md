@@ -7,9 +7,11 @@
     - [contrab add](#contrab-add)
     - [ping](#ping)
   - [Run command as the system administrator (root)](#run-command-as-the-system-administrator-root)
-    - [Cat /etc/shadow by ssh](#cat-etcshadow-by-ssh)
+    - [cat /etc/shadow by ssh](#cat-etcshadow-by-ssh)
+    - [service --status-all](#service---status-all)
   - [Change config file](#change-config-file)
-    - [Display Error php.ini](#display-error-phpini)
+    - [Display Error - php.ini](#display-error---phpini)
+    - [Creating log](#creating-log)
 
 ## References
 ---
