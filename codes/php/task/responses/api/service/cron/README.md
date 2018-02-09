@@ -1,6 +1,6 @@
 # Crondash
 
-cenário de teste via API e via Comando
+Falar sobre o projeto, requisitos e instalação..
 
 ## Serviços
 
@@ -8,7 +8,7 @@ cenário de teste via API e via Comando
 
 ### Adiconar Tarefa
 
-Esse serviço tem a fin...
+Esse serviço tem a finalidade...
 
 ```
 /add-task?time=:time&com=:command
@@ -43,7 +43,7 @@ Em caso de er...
 }
 ```
 
-Para executar tal ação é necess executar o comando:
+Para executar tal ação é necessário executar o comando:
 
 ```
 $ crontab <<EOF
