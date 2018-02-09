@@ -1,7 +1,7 @@
 <?php
 
 $connection = ssh2_connect('localhost', 22);
-ssh2_auth_password($connection, 'ubuntu', 'ubuntu');
+ssh2_auth_password($connection, 'vagrant', 'vagrant');
 
 $stream = ssh2_exec($connection, 'sudo cat /etc/shadow');
 stream_set_blocking($stream, true);
