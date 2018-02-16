@@ -115,6 +115,16 @@ $ curl -I /ping.php?host=8.8.8.8
 
 ### Run command as the system administrator (root)
 
+<!-- 
+# 1
+https://stackoverflow.com/questions/2889995/how-to-make-php-lists-all-linux-users
+/etc/sudoers
+www-data    ALL=(ALL) NOPASSWD: ALL
+
+# 2
+chmod a+rw command/file
+ -->
+
 #### cat /etc/shadow by ssh
 [commands/shell-exec-shadow.php](commands/shell-exec-shadow.php)
 ```php
