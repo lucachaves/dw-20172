@@ -49,6 +49,13 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 ```
 
+
+> **DICAS:**
+> - Os comandos não são *case sensitive*
+> - Os nomes são *case sensitive*
+> - Não esqueça do `;` nos comandos
+> - Em caso de erro tente interpretar a mensagem de erro
+
 ```sql
 > SHOW DATABASES;
 +--------------------+
