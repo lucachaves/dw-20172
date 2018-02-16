@@ -377,9 +377,13 @@ TODO
 
 ## \# 18 - Acompanhamento do projeto (16/02/2018)
 
+* * *
+
 > [Projeto Final](../exams/projeto.md)
 
 ## \# 19 - Acompanhamento do Projeto (23/02/2018)
+
+* * *
 
 > [Projeto Final](../exams/projeto.md)
 
