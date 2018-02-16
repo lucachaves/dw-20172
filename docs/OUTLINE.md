@@ -15,7 +15,11 @@
 [\# 13 - Fundamentos de PHP (26/01/2018)](#-13---fundamentos-de-php-26012018)<br>
 [\# 14 - APIs em PHP (02/02/2018)](#-14---apis-em-php-02022018)<br>
 [\# 15 - Acompanhamento de Projetos (03/02/2018 Sábado)](#-15---acompanhamento-de-projetos-03022018-sábado)<br>
-[\# 16 - Avaliação de PHP (09/02/2018)](#-16---avaliação-de-php-09022018)<br>
+[\# 16 - API dos Projetos (09/02/2018)](#-16---api-dos-projetos-09022018)<br>
+[\# 17 - MySQL & PHP PDO(09/02/2018)](#-17---mysql--php-pdo-09022018)<br>
+[\# 18 - Acompanhamento do projeto (16/02/2018)](#-18---acompanhamento-do-projeto-16022018)<br>
+[\# 19 - Acompanhamento do Projeto (23/02/2018)](#-19---acompanhamento-do-projeto-23022018)<br>
+[\# 20 - Prova e Projeto Final (24/02/2018 Sábado)](#-20---prova-e-projeto-final-24022018-sábado)<br>
 
 ## \# 01 - Apresentação da Disciplina (22/09/2017)
 
@@ -262,7 +266,7 @@
 
 > Todos os detalhes da avaliação estão disponíveis nesta [página](../exams/prova-html-css/)
 
-> Além da avaliação será divulgado o critério de avaliação do [projeto final](../exams/projeto.md)
+> Além da avaliação será divulgado o critério de avaliação do [Projeto Final](../exams/projeto.md)
 
 ## \# 11 - Simulado de Javascript (15/12/2017)
 
@@ -353,44 +357,34 @@ TODO
 * Trazer as dificuldades do projeto.
 * Definir os serviços conforme esse [modelo](../codes/php/task/responses/api/service/cron/).
 
-## \# 16 - Avaliação de PHP (09/02/2018)
+## \# 16 - API dos Projetos (09/02/2018)
 
 * * *
 
-> Entrega da API dos [projetos](https://padlet.com/lucachaves/projetodw20172).
+> Acopanhando as API dos Projetos.
 
-<!--
-## \# 17 - (09/02/2018)
 
-* * *
-
-**Conteúdo:**
-- PHP
-- MySQL
-
-**Exercício:**
-
-## \# 18 - (16/02/2018)
+## \# 17 - MySQL & PHP PDO(09/02/2018)
 
 * * *
 
 **Conteúdo:**
-- PHP
-- MySQL
+- [MySQL Guide](../codes/sql/guide/)
+- [PDO PHP](http://php.net/manual/en/book.pdo.php)
 
 **Exercício:**
+* Utilize Banco no Projeto no Projeto Final.
 
-## \# 19 - (23/02/2018)
+## \# 18 - Acompanhamento do projeto (16/02/2018)
+
+> [Projeto Final](../exams/projeto.md)
+
+## \# 19 - Acompanhamento do Projeto (23/02/2018)
+
+> [Projeto Final](../exams/projeto.md)
+
+## \# 20 - Prova e Projeto Final (24/02/2018 Sábado)
 
 * * *
 
-**Conteúdo:**
-
-**Exercício:**
-
-## \# 20 - Prova e Projeto (24/02/2018 Sábado)
-
-* * *
-
-**Apresentação de Projetos**
--->
+> Entrega da Avaliação III de PHP (API) e do [Projeto Final](../exams/projeto.md)
