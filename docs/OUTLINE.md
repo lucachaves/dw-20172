@@ -16,7 +16,7 @@
 [\# 14 - APIs em PHP (02/02/2018)](#-14---apis-em-php-02022018)<br>
 [\# 15 - Acompanhamento de Projetos (03/02/2018 Sábado)](#-15---acompanhamento-de-projetos-03022018-sábado)<br>
 [\# 16 - API dos Projetos (09/02/2018)](#-16---api-dos-projetos-09022018)<br>
-[\# 17 - MySQL & PHP PDO(09/02/2018)](#-17---mysql--php-pdo-09022018)<br>
+[\# 17 - MySQL & PHP PDO(09/02/2018)](#-17---mysql--php-pdo09022018)<br>
 [\# 18 - Acompanhamento do projeto (16/02/2018)](#-18---acompanhamento-do-projeto-16022018)<br>
 [\# 19 - Acompanhamento do Projeto (23/02/2018)](#-19---acompanhamento-do-projeto-23022018)<br>
 [\# 20 - Prova e Projeto Final (24/02/2018 Sábado)](#-20---prova-e-projeto-final-24022018-sábado)<br>

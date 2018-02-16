@@ -12,7 +12,7 @@
 ---
 
 ```
-mysql_secure_installation
+$ mysql_secure_installation
 ```
 
 ```
@@ -251,7 +251,8 @@ Empty set (0.00 sec)
 ```
 
 ```sql
-> EXIT
+> exit
+Bye
 ```
 
 ```
