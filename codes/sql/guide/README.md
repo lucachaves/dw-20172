@@ -8,6 +8,24 @@
 - SQL Tutorial: [W3Schools](https://www.w3schools.com/sql/default.asp) e [TutorialsPoint](https://www.tutorialspoint.com/sql/index.htm)
 - SQL cheat sheet: [ZeroTurnaround](https://zeroturnaround.com/rebellabs/sql-cheat-sheet/), [cse.unl.edu](http://cse.unl.edu/~sscott/ShowFiles/SQL/CheatSheet/SQLCheatSheet.html), [hofmannsven](https://gist.github.com/hofmannsven/9164408), [sqltutorial](http://www.sqltutorial.org/sql-cheat-sheet/)
 
+## Dados
+---
+
+| name               | address      | transmitted | received | time                |
+|--------------------|--------------|-------------|----------|---------------------|
+| portal.ifrn.edu.br | 10.0.0.100   |           4 |        4 | 2018-02-16 13:41:49 |
+| portal.ifrn.edu.br | 10.0.0.100   |           8 |        4 | 2018-02-16 13:41:49 |
+| portal.ifrn.edu.br | 10.0.0.100   |           4 |        3 | 2018-02-16 13:41:49 |
+| ...                | ...          |         ... |      ... | ...                 |
+| www.ifpb.edu.br    | 200.10.10.12 |           5 |        5 | 2018-02-18 13:41:49 |
+
+### Questões
+
+1. Quantos pacotes foram recebidos?
+2. Qual é a média de pacotes perdidos?
+3. Qual é a porcentagem de pacotes recebidos do IFPB?
+4. Qual é a porcentagem de pacotes perditos do IFPB no dia 16/02/2018 entre 09:00 até 18:00?
+
 ## Comandos
 ---
 
@@ -53,6 +71,23 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 mysql>
 ```
 
+```
+$ mysqldump -u [username] -p [database] > [database]_backup.sql
+$ mysqldump -u root -p monitor_db > monitor_db_backup.sql
+```
+
+```
+$ mysqldump -u root -p --no-create-info monitor_db > monitor_db_backup.sql # data only
+$ mysqldump -u root -p --no-data monitor_db > monitor_db_backup.sql # structure only
+$ mysqldump -u root -p --all-databases > database_backup.sql # database
+```
+
+```
+$ mysql -u [username] -p [database] < database_backup_backup.sql
+```
+
+## SQL
+---
 
 > **DICAS:**
 > - Os comandos não são *case sensitive*
@@ -477,21 +512,6 @@ Records: 5  Duplicates: 0  Warnings: 0
 ```sql
 > exit
 Bye
-```
-
-```
-$ mysqldump -u [username] -p [database] > [database]_backup.sql
-$ mysqldump -u root -p monitor_db > monitor_db_backup.sql
-```
-
-```
-$ mysqldump -u root -p --no-create-info monitor_db > monitor_db_backup.sql # data only
-$ mysqldump -u root -p --no-data monitor_db > monitor_db_backup.sql # structure only
-$ mysqldump -u root -p --all-databases > database_backup.sql # database
-```
-
-```
-$ mysql -u [username] -p [database] < database_backup_backup.sql
 ```
 
 <!-- 
