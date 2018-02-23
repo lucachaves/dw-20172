@@ -419,7 +419,8 @@ Empty set (0.00 sec)
     time datetime NOT NULL,
     host_id int NOT NULL,
     PRIMARY KEY (id),
-    FOREIGN KEY (host_id) REFERENCES host (id)
+    KEY host_id (host_id),
+    CONSTRAINT fk_host_id FOREIGN KEY (host_id) REFERENCES host (id)
 );
 Query OK, 0 rows affected (0.02 sec)
 
@@ -440,13 +441,13 @@ Query OK, 0 rows affected (0.02 sec)
 
 ```sql
 > INSERT INTO history
-     (transmitted, received, time, host_id)
-    VALUES
-      (4, 4, NOW(), 2),
-      (8, 4, NOW(), 2),
-      (7, 4, NOW(), 3),
-      (5, 5, NOW(), 3),
-      (4, 3, NOW(), 2);
+    (transmitted, received, time, host_id)
+  VALUES
+    (4, 4, NOW(), 2),
+    (8, 4, NOW(), 2),
+    (7, 4, NOW(), 3),
+    (5, 5, NOW(), 3),
+    (4, 3, NOW(), 2);
 Query OK, 5 rows affected (0.01 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 
@@ -462,7 +463,10 @@ Records: 5  Duplicates: 0  Warnings: 0
 +----+-------------+----------+---------------------+---------+
 5 rows in set (0.00 sec)
 
-> SELECT * FROM host, history;
+> SELECT 
+    * 
+  FROM 
+    host INNER JOIN history;
 +----+--------------------+--------------+----+-------------+----------+---------------------+---------+
 | id | name               | address      | id | transmitted | received | time                | host_id |
 +----+--------------------+--------------+----+-------------+----------+---------------------+---------+
@@ -479,8 +483,12 @@ Records: 5  Duplicates: 0  Warnings: 0
 +----+--------------------+--------------+----+-------------+----------+---------------------+---------+
 10 rows in set (0.00 sec)
 
-> SELECT * FROM host, history
-    WHERE host.id = history.host_id;
+> SELECT 
+    * 
+  FROM 
+    host INNER JOIN history
+  WHERE 
+    host.id = history.host_id;
 +----+--------------------+--------------+----+-------------+----------+---------------------+---------+
 | id | name               | address      | id | transmitted | received | time                | host_id |
 +----+--------------------+--------------+----+-------------+----------+---------------------+---------+
@@ -497,7 +505,7 @@ Records: 5  Duplicates: 0  Warnings: 0
     sum(history.received) AS received, 
     round(received/transmitted, 2) AS percent 
   FROM 
-    host, history
+    host INNER JOIN history
   WHERE 
     host.id = history.host_id AND 
     host.name LIKE '%ifpb%';
